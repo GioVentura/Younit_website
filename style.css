@@ -832,231 +832,79 @@ button.hamburger.animate.active:after {
 /*-----------------------------------------------------------------------------------*/
 #rettangoloSearch{
   background-color: #ffffff;
-  border-radius: 20px;
+  box-shadow: inset 0px 4px 4px rgba(126, 72, 229, 0.08);
+  border-radius: 36px 36px 0px 0px;
 }
 
 #upperSearch{
-  height: 30px;
+  height: 700px;
+
 }
-#inputSearch {
-  border: 1px solid #ccc;
-  font-size: 12px;
-  height: 30px;
-  padding: 4px 8px;
-  position: absolute;
-  width: 50%;
-  &:focus {
-    outline: none;
-  }
+#hardvarkForm{
+color: rgba(201, 76, 76, 0);
 }
 
-.buttonSearch {
-  text-align: center;
-  &:focus {
-    outline: none;
-  }
-
-  &.btn-search,
-  &.btn-reset {
-    background: hotpink;
-    border: none;
-    height: 30px;
-    font-size: 12px;
-    padding: 4px;
-    position: absolute;
-    width: 30px;
-  }
-}
-
-.sample.nine #inputSearch, .sample.ten #inputSearch {
-  border-radius: 15px;
-  transition: all .6s ease-in-out .3s;
-  width: 120px;
-}
-.sample.nine #inputSearch:focus, .sample.ten #inputSearch:focus {
-  transition-delay: 0;
-  width: 200px;
-}
-.sample.nine #inputSearch:focus ~ buttonSearch, .sample.ten #inputSearch:focus ~ buttonSearch {
-  transform: rotateZ(360deg);
-}
-.sample.nine #inputSearch:focus ~ buttonSearch.btn-search, .sample.ten #inputSearch:focus ~ buttonSearch.btn-search {
-  background: hotpink;
-  color: #fff;
-  left: 172px;
-  transition-delay: 0;
-}
-.sample.nine #inputSearch:focus ~ buttonSearch.btn-reset, .sample.ten #inputSearch:focus ~ buttonSearch.btn-reset {
-  left: 202px;
-  transition-delay: .3s;
-}
-.sample.nine buttonSearch, .sample.ten buttonSearch {
-  transition: all .6s ease-in-out;
-}
-.sample.nine buttonSearch.btn-search, .sample.ten buttonSearch.btn-search {
-  background: #ccc;
-  border-radius: 50%;
-  height: 26px;
-  left: 92px;
-  top: 2px;
-  transition-delay: .3s;
-  width: 26px;
-}
-.sample.nine buttonSearch.btn-reset, .sample.ten buttonSearch.btn-reset {
-  background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  font-size: 10px;
-  height: 20px;
-  left: 92px;
-  line-height: 20px;
-  padding: 0;
-  top: 5px;
-  width: 20px;
-  z-index: -1;
-}
-
-@keyframes bounceRight {
-  0% {
-    transform: translateX(0px);
-  }
-  50% {
-    transform: translateX(10px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-@keyframes jumpTowardSearch {
-  0% {
-    background: #ccc;
-    opacity: 1;
-    transform: rotateZ(0deg) scale(1);
-  }
-  20% {
-    background: #ccc;
-    opacity: 0;
-    transform: rotateZ(-60deg) scale(50);
-  }
-  55% {
-    background: hotpink;
-    opacity: 0;
-    transform: rotateZ(-30deg) scale(100);
-  }
-  90% {
-    background: hotpink;
-    opacity: 0;
-    transform: rotateZ(-30deg) scale(50);
-  }
-  100% {
-    background: hotpink;
-    opacity: 1;
-    transform: rotateZ(0deg) scale(1);
-  }
-}
-@keyframes jumpTowardReset {
-  0% {
-    opacity: 0;
-    transform: rotateZ(0deg) scale(1);
-  }
-  20% {
-    opacity: 0;
-    transform: rotateZ(-60deg) scale(50);
-  }
-  55% {
-    opacity: 0;
-    transform: rotateZ(-30deg) scale(100);
-  }
-  90% {
-    opacity: 0;
-    transform: rotateZ(-30deg) scale(50);
-  }
-  100% {
-    opacity: 1;
-    transform: rotateZ(0deg) scale(1);
-  }
-}
-
-.sample {
+#searchIcon{
   float: left;
-  height: 50px;
-  /* margin: 0 8%; */
-  position: relative;
-  width: 34%;
-  &.ten {
-    input {
-      border-radius: 15px;
-      transition: all .6s ease-in-out .3s;
-      width: 120px;
-      &:focus {
-        transition-delay: 0;
-        width: 200px;
-        ~ button {
-          transform: rotateZ(360deg);
-          &.btn-search {
-            background: hotpink;
-            color: #fff;
-            left: 172px;
-            transition-delay: 0;
-          }
-          &.btn-reset {
-            left: 202px;
-            transition-delay: .3s;
-          }
-        }
-      }
-    }
-    button {
-      transition: all .6s ease-in-out;
-      &.btn-search {
-        background: #ccc;
-        border-radius: 50%;
-        height: 26px;
-        left: 92px;
-        top: 2px;
-        transition-delay: .3s;
-        width: 26px;
-      }
-      &.btn-reset {
-        background: #fff;
-        border: 1px solid #ccc;
-        border-radius: 50%;
-        font-size: 10px;
-        height: 20px;
-        left: 92px;
-        line-height: 20px;
-        padding: 0;
-        top: 5px;
-        width: 20px;
-        z-index: -1;
-      }
-    }
-  }
-      }
-      button {
-        &.btn-search {
-          backface-visibility: visible;
-          color: #fff;
-          padding: 0;
-          position: relative;
-          transform: rotateY(0deg) translateX(0px);
-          transform-origin: 121px 0;
-          transform-style: preserve3d;
-          transition: all .6s ease-in-out .2s;
-          width: 120px;
-        }
-        &.btn-reset {
-          backface-visibility: hidden;
-          background: #ccc;
-          left: 184px;
-          transform: rotateY(180deg);
-          transform-origin: left 0;
-          transform-style: preserve3d;
-          transition: all .6s ease-in-out .2s;
-          width: 60px;
-        }
-      }
-    }}
+  width: 3%;
+  padding: 1% 0 0 0;
+}
+
+input.search-box,.close-icon,.search-wrapper {
+	position: relative;
+	padding: 10px;
+}
+.search-wrapper {
+	width: 100%;
+
+}
+
+input.search-box {
+	width: 97%;
+	border: 1px solid #ccc;
+  outline: 0;
+  border-radius: 15px;
+  font-family: "Graphik-Regular";
+  color: #A0A0A0;
+
+}
+
+input.search-box:focus {
+	box-shadow: 0 0 15px 5px #b0e0ee;
+	border: 2px solid #bebede;
+}
+.close-icon {
+	border:1px solid transparent;
+	background-color: transparent;
+	display: inline-block;
+	vertical-align: middle;
+  outline: 0;
+  cursor: pointer;
+}
+.close-icon:after {
+	content: "X";
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	background-color: #FA9595;
+	z-index:1;
+	right: 35px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 2px;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	font-size: 12px;
+	box-shadow: 0 0 2px #E50F0F;
+	cursor: pointer;
+}
+input.search-box:not(:valid) ~ .close-icon {
+	display: none;
+}
 
 .search-dropdown .dropdown-toggle {
     color: #303030;
@@ -4917,7 +4765,7 @@ input[type="color"],
     padding: 0 1rem;
     font-size: 0.8rem;
     color: #606060;
-    background: rgba(var(--rgb-black), 0.05);
+    /* background: rgba(var(--rgb-black), 0.05); */
     border: 0;
     border-radius: 1.25rem;
     resize: none;
