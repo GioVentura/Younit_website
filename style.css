@@ -117,16 +117,41 @@ button:focus {
 html {
     font-size: 20px;
 }
+@font-face {
+    font-family: 'MohrRounded';
+    src: url('style/css/font/MohrRounded-Bold.eot');
+    src: url('style/css/font/MohrRounded-Bold.eot?#iefix') format('embedded-opentype'),
+        url('style/css/font/MohrRounded-Bold.woff2') format('woff2'),
+        url('style/css/font/MohrRounded-Bold.woff') format('woff'),
+        url('style/css/font/MohrRounded-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MohrRounded';
+    src: url('style/css/font/MohrRounded-SemiBold.eot');
+    src: url('style/css/font/MohrRounded-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('style/css/font/MohrRounded-SemiBold.woff2') format('woff2'),
+        url('style/css/font/MohrRounded-SemiBold.woff') format('woff'),
+        url('style/css/font/MohrRounded-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    }
+
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Jost', sans-serif;
+    font-family: 'MohrRounded';
     color: #606060;
     font-size: 0.8rem;
     background: #f9fafb;
     overflow-x: hidden;
     position: relative;
 }
+
 .container {
     padding-right: 0;
     padding-left: 0;
