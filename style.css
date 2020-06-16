@@ -291,11 +291,11 @@ h6 {
     color: #404040;
     font-weight: 500;
     letter-spacing: normal;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.7rem;
 }
 h1,
 .h1 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     line-height: 1.7rem;
 }
 h2,
@@ -413,8 +413,8 @@ h6.text-uppercase,
     font-weight: 500;
 }
 .display-1 {
-    font-size: 2.5rem;
-    line-height: 3.1rem;
+    font-size: 4rem;
+    line-height: 4rem;
     font-weight: 500;
     color: #ffffff;
 }
@@ -835,9 +835,16 @@ button.hamburger.animate.active:after {
   box-shadow: inset 0px 4px 4px rgba(126, 72, 229, 0.08);
   border-radius: 36px 36px 0px 0px;
 }
+#lowerSearchRect{
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(126, 72, 229, 0.08), inset 0px 4.5px 4px rgba(126, 72, 229, 0.08);
+  border-radius: 0px 0px 36px 36px;
+  height: 84px;
+}
 
 #upperSearch{
-  height: 700px;
+margin-bottom: 0px;
+padding-bottom: 0px;
 
 }
 #hardvarkForm{
@@ -847,6 +854,12 @@ color: rgba(201, 76, 76, 0);
 #searchIcon{
   float: left;
   width: 3%;
+  padding: 1% 0 0 0;
+}
+
+.EllipsePaesi{
+  float: left;
+  width: 2%;
   padding: 1% 0 0 0;
 }
 
@@ -999,6 +1012,26 @@ input.search-box:not(:valid) ~ .close-icon {
     box-shadow: none;
     display: inline-block;
 }
+
+#younisciti-btn{
+  border-radius: 16px;
+  box-shadow: 5px 5px 15px rgba(84, 51, 163, 0.6);
+  width: 159px;
+height: 51px;
+font-family: MohrRoundedAlt-SemiBold;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+text-transform: none;
+text-align: center;
+letter-spacing: -0.3px;
+padding: 10% 0 0 0;
+
+color: #7E48E5;
+
+}
+
+
 .btn-icon i {
     vertical-align: -1px;
 }
@@ -1247,9 +1280,9 @@ input.search-box:not(:valid) ~ .close-icon {
 .btn.share-twitter.active {
     background: #4c9ec6;
 }
-.btn.btn-strong-hover.btn-white:hover,
-.btn.btn-strong-hover.btn-white:active,
-.btn.btn-strong-hover.btn-white.active {
+.btn.btn-strong-hover.btn-white#younisciti-btn:hover,
+.btn.btn-strong-hover.btn-white#younisciti-btn:active,
+.btn.btn-strong-hover.btn-white#younisciti-btn.active {
     box-shadow: var(--btn-strong-hover-white);
 }
 .btn.btn-strong-hover.btn-red:hover,
