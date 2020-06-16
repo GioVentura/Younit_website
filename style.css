@@ -71,6 +71,8 @@ Author:		elemis
 /*-----------------------------------------------------------------------------------*/
 /*	01. RESET
 /*-----------------------------------------------------------------------------------*/
+
+
 *,
 *:before,
 *:after {
@@ -414,6 +416,7 @@ h6.text-uppercase,
     font-size: 2.5rem;
     line-height: 3.1rem;
     font-weight: 500;
+    color: #ffffff;
 }
 .display-2 {
     font-size: 2rem;
@@ -434,6 +437,7 @@ h6.text-uppercase,
     font-size: 1rem;
     line-height: 1.5rem;
 }
+
 .page-title-wrapper .lead {
     font-size: 1.1rem;
     line-height: 1.6rem;
@@ -441,6 +445,19 @@ h6.text-uppercase,
 .lead.larger {
     font-size: 1.2rem;
     line-height: 1.7rem;
+    color: #ffffff;
+}
+#onlinessStatement {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  color: #ffffff;
+  font-family: "Graphik-Medium";
+}
+
+#it {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  color: #ffba09;
 }
 .text-muted {
     color: #808080 !important;
