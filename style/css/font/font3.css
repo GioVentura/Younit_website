@@ -14,7 +14,7 @@ body,
 .badge,
 .pricing-switcher,
 .font-copy {
-    font-family: 'DM Sans', sans-serif !important;
+    font-family: 'Graphik', sans-serif !important;
 
 }
 body {
@@ -41,7 +41,7 @@ blockquote p,
 .accordion-wrapper .card-header button,
 .tp-caption:not(.btn),
 .font-title {
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Graphik', serif;
 }
 .navbar-nav .nav-link,
 .dropdown-item,

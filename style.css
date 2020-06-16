@@ -140,6 +140,53 @@ html {
     font-style: normal;
     font-display: swap;
     }
+    @font-face {
+        font-family: 'Graphik';
+        src: url('style/css/font/Graphik-Semibold.eot');
+        src: url('style/css/font/Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
+            url('style/css/font/Graphik-Semibold.woff2') format('woff2'),
+            url('style/css/font/Graphik-Semibold.woff') format('woff'),
+            url('style/css/font/Graphik-Semibold.ttf') format('truetype');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Graphik';
+        src: url('style/css/font/Graphik-Medium.eot');
+        src: url('style/css/font/Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+            url('style/css/font/Graphik-Medium.woff2') format('woff2'),
+            url('style/css/font/Graphik-Medium.woff') format('woff'),
+            url('style/css/font/Graphik-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Graphik';
+        src: url('style/css/font/Graphik-Regular.eot');
+        src: url('style/css/font/Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+            url('style/css/font/Graphik-Regular.woff2') format('woff2'),
+            url('style/css/font/Graphik-Regular.woff') format('woff'),
+            url('style/css/font/Graphik-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Graphik';
+        src: url('style/css/font/Graphik-Light.eot');
+        src: url('style/css/font/Graphik-Light.eot?#iefix') format('embedded-opentype'),
+            url('style/css/font/Graphik-Light.woff2') format('woff2'),
+            url('style/css/font/Graphik-Light.woff') format('woff'),
+            url('style/css/font/Graphik-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
 
 body {
     -webkit-font-smoothing: antialiased;
