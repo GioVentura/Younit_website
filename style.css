@@ -839,7 +839,14 @@ button.hamburger.animate.active:after {
   height: 84px;
   width: 25%;
   padding: 3.2% 0% 0% 7%;
+  float: left;
 }
+
+#listaPaese-Search li a:hover{
+  text-decoration: underline;
+  color: #BC9BF8;
+}
+
 
 .EllipsePaesi{
   margin-right: 10%;
