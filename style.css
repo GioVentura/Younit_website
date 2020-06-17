@@ -867,9 +867,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 116%;
 /* or 23px */
-
 letter-spacing: -0.3px;
-
 color: #7E48E5;
 }
 
@@ -4846,8 +4844,8 @@ input[type="color"],
     height: 2.5rem;
     line-height: 2.5rem;
     padding: 0 1rem;
-    font-size: 0.8rem;
-    color: #606060;
+    font-size: 0.93rem;
+    color: #CFCFCF;
     /* background: rgba(var(--rgb-black), 0.05); */
     border: 0;
     border-radius: 1.25rem;
