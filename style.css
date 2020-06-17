@@ -309,7 +309,7 @@ h1,
 }
 h2,
 .h2 {
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 1.6rem;
 }
 h3,
@@ -431,6 +431,7 @@ h6.text-uppercase,
     font-size: 2rem;
     line-height: 2.6rem;
     font-weight: 500;
+    color: #7E48E5;
 }
 .display-3 {
     font-size: 1.6rem;
@@ -863,7 +864,7 @@ button.hamburger.animate.active:after {
 #listaPaese-Search li{
   height: 84px;
   width: 25%;
-  padding: 3.2% 0% 0% 7%;
+  padding: 2% 0% 0% 7%;
   float: left;
 }
 
