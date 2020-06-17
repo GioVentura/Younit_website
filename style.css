@@ -116,6 +116,12 @@ button:focus {
 /*-----------------------------------------------------------------------------------*/
 /*	02. GENERAL
 /*-----------------------------------------------------------------------------------*/
+#bgtotal{
+  background-image: url("style/images/art/copertinaBandierine.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 html {
     font-size: 20px;
 }
@@ -143,7 +149,7 @@ html {
     font-display: swap;
     }
 
-  
+
 
     @font-face {
         font-family: 'Graphik';
@@ -462,6 +468,22 @@ h6.text-uppercase,
   line-height: 1.7rem;
   color: #ffba09;
 }
+
+#bg-lilla{
+  background-image: url("style/images/art/back_lilla.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wave-container {
+  position: relative;
+  background: #09F;
+  color: #FFF;
+  text-align: center;
+  overflow: hidden;
+}
+
+
 .text-muted {
     color: #808080 !important;
 }
