@@ -872,6 +872,10 @@ color: rgba(201, 76, 76, 0);
   padding: 1% 0 0 0;
 }
 
+#searchIcon img {
+  width: 23px;
+}
+
 .EllipsePaesi{
   float: left;
   width: 2%;
