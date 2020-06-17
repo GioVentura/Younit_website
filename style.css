@@ -836,17 +836,37 @@ button.hamburger.animate.active:after {
 }
 
 #listaPaese-Search li{
-  background-color: red;
   height: 84px;
   width: 25%;
-  padding: 4% 4.7% 3% 5%;
+  padding: 3.2% 0% 0% 7%;
 }
 
 .EllipsePaesi{
-  background-color: green;
-  width: 20px;
   margin-right: 10%;
 }
+
+.EllipsePaesi img{
+  width: 12px;
+}
+
+.LinkPaesi{
+  padding: 2% 0 0 0;
+  font-size: 1.12rem;
+}
+
+.LinkPaesi a{
+font-family: "MohrRounded";
+font-style: normal;
+font-weight: 600;
+line-height: 116%;
+/* or 23px */
+
+letter-spacing: -0.3px;
+
+color: #7E48E5;
+}
+
+
 
 
 #rettangoloSearch{
