@@ -830,19 +830,23 @@ button.hamburger.animate.active:after {
 /*-----------------------------------------------------------------------------------*/
 /*	08. SEARCH
 /*-----------------------------------------------------------------------------------*/
-listaPaese-Search{
+#listaPaese-Search{
   list-style-type: none;
+  padding: 0;
 }
 
-
-#Paese-1{
+#listaPaese-Search li{
   background-color: red;
   height: 84px;
   width: 25%;
+  padding: 4% 4.7% 3% 5%;
 }
 
-
-
+.EllipsePaesi{
+  background-color: green;
+  width: 20px;
+  margin-right: 10%;
+}
 
 
 #rettangoloSearch{
