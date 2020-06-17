@@ -830,6 +830,21 @@ button.hamburger.animate.active:after {
 /*-----------------------------------------------------------------------------------*/
 /*	08. SEARCH
 /*-----------------------------------------------------------------------------------*/
+listaPaese-Search{
+  list-style-type: none;
+}
+
+
+#Paese-1{
+  background-color: red;
+  height: 84px;
+  width: 25%;
+}
+
+
+
+
+
 #rettangoloSearch{
   background-color: #ffffff;
   box-shadow: inset 0px 4px 4px rgba(126, 72, 229, 0.08);
