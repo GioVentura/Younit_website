@@ -122,6 +122,13 @@ button:focus {
   background-repeat: no-repeat;
 }
 
+
+#bg1{
+  background-image: url("style/images/illustrazioni/prova.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 html {
     font-size: 20px;
 }
@@ -2241,7 +2248,8 @@ ol {
 
 .mask {
   overflow: hidden;
-  height: 320px;
+  height: 380px;
+  width: 880px;
 }
 
 .slider ul {
@@ -2263,13 +2271,15 @@ ol {
   text-align: center;
   font-style: "MohrRounded-SemiBold";
   color: #fff;
+  margin-top: 10%;
 }
 
 .slider .source {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   font-style: "MohrRounded";
   color: #fff;
+  margin-top: 1%;
 }
 
 .slider li.anim1 {
