@@ -488,6 +488,16 @@ h6.text-uppercase,
   background-color: rgba(255, 0, 0, 0.0);
   height: 1000px;
 }
+#bg-lillino{
+  position:relative;
+  z-index: 10;
+  top: -450px;
+  background-image: url("style/images/art/back_lillino.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 0, 0, 0.0);
+  height: 1000px;
+}
 
 
 .text-muted {
