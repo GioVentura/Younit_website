@@ -2268,9 +2268,19 @@ ol {
     margin: 0 0 0 0.5rem;
 }
 
+#younit {
+  font-size: 60px;
+  text-align: left;
+  font-style: "MohrRounded-SemiBold";
+  margin-top: 10%;
+  color: white;
+
+}
+
+
 .content-slider {
   width: 100%;
-  height: 360px;
+  height: 860px;
 }
 
 .slider {
@@ -2303,15 +2313,18 @@ ol {
 
 .slider .quote {
   font-size: 60px;
-  text-align: center;
+  text-align: right;
   font-style: "MohrRounded-SemiBold";
-  color: #fff;
   margin-top: 10%;
+  color: black;
+  -webkit-text-fill-color: #8647E9;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
 }
 
 .slider .source {
   font-size: 30px;
-  text-align: center;
+  text-align: right;
   font-style: "MohrRounded";
   color: #fff;
   margin-top: 1%;
