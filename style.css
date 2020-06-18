@@ -473,7 +473,9 @@ h6.text-uppercase,
 #bg-lilla{
   background-image: url("style/images/art/back_lilla.png");
   background-size: 100%;
+  /* background-position: -200px -200px; */
   background-repeat: no-repeat;
+  background-color: rgba(255, 0, 0, 0.0);
 }
 
 .wave-container {
