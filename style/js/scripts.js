@@ -1066,22 +1066,22 @@ $(document).ready(function() {
 /*	IPHONE SCRIPT
 /*-----------------------------------------------------------------------------------*/
 
- var home
- var telefonoHome
+var home
+var telefonoHome
 
- var info
- var telefonoInfo
+var info
+var telefonoInfo
 
- var attivita
- var telefonoAttivita
+var attivita
+var telefonoAttivita
 
- function switch(){
-	 home = select('#iconaHome');
-	 telefonoHome = select('#telefonoHome');
+function cambioSchermata() {
+	home = select('#iconaHome');
+	telefonoHome = select('#telefonoHome');
 
-	 info = select('#iconaInfo');
-	 telefonoInfo = select('#telefonoInfo');
+	info = select('#iconaInfo');
+	telefonoInfo = select('#telefonoInfo');
 
-	 attivita = select('#iconaAttivita');
-	 telefonoAttivita = select('#telefonoAttivita');
- }
+	attivita = select('#iconaAttivita');
+	telefonoAttivita = select('#telefonoAttivita');
+}
