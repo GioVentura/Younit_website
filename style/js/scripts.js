@@ -1061,3 +1061,27 @@ $(document).ready(function() {
 		});
 	});
 });
+
+/*-----------------------------------------------------------------------------------*/
+/*	IPHONE SCRIPT
+/*-----------------------------------------------------------------------------------*/
+
+ var home
+ var telefonoHome
+
+ var info
+ var telefonoInfo
+
+ var attivita
+ var telefonoAttivita
+
+ function switch(){
+	 home = select('#iconaHome');
+	 telefonoHome = select('#telefonoHome');
+
+	 info = select('#iconaInfo');
+	 telefonoInfo = select('#telefonoInfo');
+
+	 attivita = select('#iconaAttivita');
+	 telefonoAttivita = select('#telefonoAttivita');
+ }
