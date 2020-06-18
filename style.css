@@ -478,14 +478,6 @@ h6.text-uppercase,
   background-color: rgba(255, 0, 0, 0.0);
 }
 
-.wave-container {
-  position: relative;
-  background: #09F;
-  color: #FFF;
-  text-align: center;
-  overflow: hidden;
-}
-
 
 .text-muted {
     color: #808080 !important;
