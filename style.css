@@ -496,7 +496,7 @@ h6.text-uppercase,
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: rgba(255, 0, 0, 0.0);
-  height: 3000px;
+  height: 1300px;
 }
 
 #bg-lilla2{
@@ -4736,7 +4736,35 @@ letter-spacing: -0.3px;
 #iconaAttivitaSelected{
   display: none;
 }
+/*-----------------------------------------------------------------------------------*/
+/*	 DOWNLOAD L'APP
+/*-----------------------------------------------------------------------------------*/
 
+#gradiente{
+background: linear-gradient(180deg, #FFFFFF 31.39%, rgba(255, 255, 255, 0) 100%), rgba(126, 72, 229, 0.24);
+height: 900px;
+position:relative;
+z-index: 8;
+top: -800px;
+}
+
+#ScaricaLApp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 0 4%;
+  /* height:700px; */
+}
+
+#glifo{
+  width: 27%;
+}
+
+#mockup{
+  width: 100%;
+}
 /*-----------------------------------------------------------------------------------*/
 /*	 CHI SIAMO PAGE
 /*-----------------------------------------------------------------------------------*/
