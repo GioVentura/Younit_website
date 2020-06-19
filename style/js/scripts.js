@@ -190,6 +190,7 @@ $(document).ready(function() {
 			dotsEach: true,
 			autoHeight: true,
 			loop: true,
+			autoplay: true,
 			margin: $bslider.data("margin")
 		});
 	});
