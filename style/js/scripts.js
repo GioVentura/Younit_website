@@ -1185,3 +1185,128 @@ var testoAttivita = document.querySelector('#TestoAttivita');
 	testoInfo.style.display = 'none';
 	testoAttivita.style.display = 'block';
 }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	VALORI SCRIPT
+/*-----------------------------------------------------------------------------------*/
+
+
+function appearCond() {
+
+ // --- illustrazioni ---
+
+var condivisione = document.querySelector('#condivisione');
+var	partecipazione = document.querySelector('#partecipazione');
+var	sicurezza = document.querySelector('#sicurezza');
+
+	condivisione.style.display = 'block';
+	partecipazione.style.display = 'none';
+	sicurezza.style.display = 'none';
+
+	 // --- Icone a dx ---
+
+var iconaHome = document.querySelector('#iconaHome');
+var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
+var iconaInfo = document.querySelector('#iconaInfo');
+var iconaInfoSelected = document.querySelector('#iconaInfoSelected');
+var iconaAttivita = document.querySelector('#iconaAttivita');
+var iconaAttivitaSelected = document.querySelector('#iconaAttivitaSelected');
+
+	iconaHome.style.display = 'none';
+	iconaHomeSelected.style.display = 'block';
+	iconaInfo.style.display = 'block';
+	iconaInfoSelected.style.display = 'none';
+	iconaAttivita.style.display = 'block';
+	iconaAttivitaSelected.style.display = 'none';
+
+	// --- Testi---
+
+	var testoCond = document.querySelector('#testoCond');
+	var testoPart = document.querySelector('#testoPart');
+	var testoSicur = document.querySelector('#testoSicur');
+
+	testoCond.style.display = 'block';
+	testoPart.style.display = 'none';
+	testoSicur.style.display = 'none';
+}
+
+
+function appearPart() {
+
+ // --- illustrazioni ---
+
+ var condivisione = document.querySelector('#condivisione');
+ var	partecipazione = document.querySelector('#partecipazione');
+ var	sicurezza = document.querySelector('#sicurezza');
+
+ 	condivisione.style.display = 'none';
+ 	partecipazione.style.display = 'block';
+ 	sicurezza.style.display = 'none';
+
+	 // --- Icone a dx ---
+
+var iconaHome = document.querySelector('#iconaHome');
+var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
+var iconaInfo = document.querySelector('#iconaInfo');
+var iconaInfoSelected = document.querySelector('#iconaInfoSelected');
+var iconaAttivita = document.querySelector('#iconaAttivita');
+var iconaAttivitaSelected = document.querySelector('#iconaAttivitaSelected');
+
+	iconaHome.style.display = 'block';
+	iconaHomeSelected.style.display = 'none';
+	iconaInfo.style.display = 'none';
+	iconaInfoSelected.style.display = 'block';
+	iconaAttivita.style.display = 'block';
+	iconaAttivitaSelected.style.display = 'none';
+
+		 // --- Testi---
+
+		 var testoCond = document.querySelector('#testoCond');
+		 var testoPart = document.querySelector('#testoPart');
+		 var testoSicur = document.querySelector('#testoSicur');
+
+		 	testoCond.style.display = 'none';
+		 	testoPart.style.display = 'block';
+		 	testoSicur.style.display = 'none';
+}
+
+
+function appearSicur() {
+
+ // --- illustrazioni ---
+
+ var condivisione = document.querySelector('#condivisione');
+ var	partecipazione = document.querySelector('#partecipazione');
+ var	sicurezza = document.querySelector('#sicurezza');
+
+  condivisione.style.display = 'none';
+  partecipazione.style.display = 'none';
+  sicurezza.style.display = 'block';
+
+	 // --- Icone a dx ---
+
+var iconaHome = document.querySelector('#iconaHome');
+var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
+var iconaInfo = document.querySelector('#iconaInfo');
+var iconaInfoSelected = document.querySelector('#iconaInfoSelected');
+var iconaAttivita = document.querySelector('#iconaAttivita');
+var iconaAttivitaSelected = document.querySelector('#iconaAttivitaSelected');
+
+	iconaHome.style.display = 'block';
+	iconaHomeSelected.style.display = 'none';
+	iconaInfo.style.display = 'block';
+	iconaInfoSelected.style.display = 'none';
+	iconaAttivita.style.display = 'none';
+	iconaAttivitaSelected.style.display = 'block';
+
+		 // --- Testi---
+
+		 var testoCond = document.querySelector('#testoCond');
+		 var testoPart = document.querySelector('#testoPart');
+		 var testoSicur = document.querySelector('#testoSicur');
+
+		 	testoCond.style.display = 'none';
+		 	testoPart.style.display = 'none';
+		 	testoSicur.style.display = 'block';
+}

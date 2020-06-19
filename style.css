@@ -4715,6 +4715,32 @@ letter-spacing: -0.3px;
   padding: 20% 0 0 8%;
 }
 
+
+#iconaHome{
+  display: none;
+}
+#iconaHomeSelected{
+  display: block;
+}
+
+#iconaInfo{
+  display: block;
+}
+#iconaInfoSelected{
+  display: none;
+}
+
+#iconaAttivita{
+  display: block;
+}
+#iconaAttivitaSelected{
+  display: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	 CHI SIAMO PAGE
+/*-----------------------------------------------------------------------------------*/
+
 #colonna4{
   display: flex;
   flex-direction: column;
@@ -4759,27 +4785,29 @@ padding : 8% */
       width: 90%;
 }
 
-#iconaHome{
+#partecipazione{
   display: none;
-}
-#iconaHomeSelected{
-  display: block;
+  padding: 3%;
+      margin-top: 25%;
+      width: 90%;
 }
 
-#iconaInfo{
-  display: block;
-}
-#iconaInfoSelected{
+#sicurezza{
   display: none;
+  padding: 3%;
+      margin-top: 25%;
+      width: 90%;
 }
 
-#iconaAttivita{
+#testoCond{
   display: block;
 }
-#iconaAttivitaSelected{
+#testoPart{
   display: none;
 }
-
+#testoSicur{
+  display: none;
+}
 /*-----------------------------------------------------------------------------------*/
 /*	51. ISOTOPE
 /*-----------------------------------------------------------------------------------*/
