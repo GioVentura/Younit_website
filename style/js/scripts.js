@@ -1079,7 +1079,7 @@ var	telefonoAttivita = document.querySelector('#telefonoAttivita');
 	telefonoInfo.style.display = 'none';
 	telefonoAttivita.style.display = 'none';
 
-	 // --- Icone a dx ---
+	 // --- Icone a sx ---
 
 var iconaHome = document.querySelector('#iconaHome');
 var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
@@ -1119,7 +1119,7 @@ var telefonoAttivita = document.querySelector('#telefonoAttivita');
 	telefonoInfo.style.display = 'block';
 	telefonoAttivita.style.display = 'none';
 
-	 // --- Icone a dx ---
+	 // --- Icone a sx ---
 
 var iconaHome = document.querySelector('#iconaHome');
 var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
@@ -1159,7 +1159,7 @@ var	telefonoAttivita = document.querySelector('#telefonoAttivita');
 	telefonoInfo.style.display = 'none';
 	telefonoAttivita.style.display = 'block';
 
-	 // --- Icone a dx ---
+	 // --- Icone a sx ---
 
 var iconaHome = document.querySelector('#iconaHome');
 var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
@@ -1204,7 +1204,7 @@ var	sicurezza = document.querySelector('#sicurezza');
 	partecipazione.style.display = 'none';
 	sicurezza.style.display = 'none';
 
-	 // --- Icone a dx ---
+	 // --- Icone a sx ---
 
 var bott1 = document.querySelector('#bott1');
 var bott1Selected = document.querySelector('#bott1Selected');
@@ -1244,7 +1244,7 @@ function appearPart() {
  	partecipazione.style.display = 'block';
  	sicurezza.style.display = 'none';
 
-	 // --- Icone a dx ---
+	 // --- Icone a sx ---
 
 var bott1 = document.querySelector('#bott1');
 var bott1Selected = document.querySelector('#bott1Selected');
@@ -1284,7 +1284,7 @@ function appearSicur() {
   partecipazione.style.display = 'none';
   sicurezza.style.display = 'block';
 
-	 // --- Icone a dx ---
+	 // --- Icone a sx ---
 
 var bott1 = document.querySelector('#bott1');
 var bott1Selected = document.querySelector('#bott1Selected');
