@@ -1206,19 +1206,19 @@ var	sicurezza = document.querySelector('#sicurezza');
 
 	 // --- Icone a dx ---
 
-var iconaHome = document.querySelector('#iconaHome');
-var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
-var iconaInfo = document.querySelector('#iconaInfo');
-var iconaInfoSelected = document.querySelector('#iconaInfoSelected');
-var iconaAttivita = document.querySelector('#iconaAttivita');
-var iconaAttivitaSelected = document.querySelector('#iconaAttivitaSelected');
+var bott1 = document.querySelector('#bott1');
+var bott1Selected = document.querySelector('#bott1Selected');
+var bott2 = document.querySelector('#bott2');
+var bott2Selected = document.querySelector('#bott2Selected');
+var bott3 = document.querySelector('#bott3');
+var bott3Selected = document.querySelector('#bott3Selected');
 
-	iconaHome.style.display = 'none';
-	iconaHomeSelected.style.display = 'block';
-	iconaInfo.style.display = 'block';
-	iconaInfoSelected.style.display = 'none';
-	iconaAttivita.style.display = 'block';
-	iconaAttivitaSelected.style.display = 'none';
+	bott1.style.display = 'none';
+	bott1Selected.style.display = 'block';
+	bott2.style.display = 'block';
+	bott2Selected.style.display = 'none';
+	bott3.style.display = 'block';
+	bott1Selected.style.display = 'none';
 
 	// --- Testi---
 
@@ -1246,19 +1246,19 @@ function appearPart() {
 
 	 // --- Icone a dx ---
 
-var iconaHome = document.querySelector('#iconaHome');
-var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
-var iconaInfo = document.querySelector('#iconaInfo');
-var iconaInfoSelected = document.querySelector('#iconaInfoSelected');
-var iconaAttivita = document.querySelector('#iconaAttivita');
-var iconaAttivitaSelected = document.querySelector('#iconaAttivitaSelected');
+var bott1 = document.querySelector('#bott1');
+var bott1Selected = document.querySelector('#bott1Selected');
+var bott2 = document.querySelector('#bott2');
+var bott2Selected = document.querySelector('#bott2Selected');
+var bott3 = document.querySelector('#bott3');
+var bott3Selected = document.querySelector('#bott3Selected');
 
-	iconaHome.style.display = 'block';
-	iconaHomeSelected.style.display = 'none';
-	iconaInfo.style.display = 'none';
-	iconaInfoSelected.style.display = 'block';
-	iconaAttivita.style.display = 'block';
-	iconaAttivitaSelected.style.display = 'none';
+	bott1.style.display = 'block';
+	bott1Selected.style.display = 'none';
+	bott2.style.display = 'none';
+	bott2Selected.style.display = 'block';
+	bott3.style.display = 'block';
+	bott3Selected.style.display = 'none';
 
 		 // --- Testi---
 
@@ -1286,19 +1286,19 @@ function appearSicur() {
 
 	 // --- Icone a dx ---
 
-var iconaHome = document.querySelector('#iconaHome');
-var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
-var iconaInfo = document.querySelector('#iconaInfo');
-var iconaInfoSelected = document.querySelector('#iconaInfoSelected');
-var iconaAttivita = document.querySelector('#iconaAttivita');
-var iconaAttivitaSelected = document.querySelector('#iconaAttivitaSelected');
+var bott1 = document.querySelector('#bott1');
+var bott1Selected = document.querySelector('#bott1Selected');
+var bott2 = document.querySelector('#bott2');
+var bott2Selected = document.querySelector('#bott2Selected');
+var bott3 = document.querySelector('#bott3');
+var bott3Selected = document.querySelector('#bott3Selected');
 
-	iconaHome.style.display = 'block';
-	iconaHomeSelected.style.display = 'none';
-	iconaInfo.style.display = 'block';
-	iconaInfoSelected.style.display = 'none';
-	iconaAttivita.style.display = 'none';
-	iconaAttivitaSelected.style.display = 'block';
+	bott1.style.display = 'block';
+	bott1Selected.style.display = 'none';
+	bott2.style.display = 'block';
+	bott2Selected.style.display = 'none';
+	bott3.style.display = 'none';
+	bott3Selected.style.display = 'block';
 
 		 // --- Testi---
 

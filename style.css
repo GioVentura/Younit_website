@@ -4777,6 +4777,26 @@ letter-spacing: -0.3px;
 padding : 8% */
 }
 
+#bott1{
+  display: none;
+}
+#bott1Selected{
+  display: block;
+}
+
+#bott2{
+  display: block;
+}
+#bott2Selected{
+  display: none;
+}
+
+#bott3{
+  display: block;
+}
+#bott3Selected{
+  display: none;
+}
 
 #condivisione{
   display: block;
@@ -4799,15 +4819,18 @@ padding : 8% */
       width: 90%;
 }
 
-#testoCond{
+#testoCond {
   display: block;
 }
-#testoPart{
+
+#testoPart {
   display: none;
 }
-#testoSicur{
+
+#testoSicur {
   display: none;
 }
+
 /*-----------------------------------------------------------------------------------*/
 /*	51. ISOTOPE
 /*-----------------------------------------------------------------------------------*/
