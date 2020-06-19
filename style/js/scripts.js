@@ -1069,6 +1069,8 @@ $(document).ready(function() {
 
 function appearHome() {
 
+ // --- Schermate iphone ---
+
 var telefonoHome = document.querySelector('#telefonoHome');
 var	telefonoInfo = document.querySelector('#telefonoInfo');
 var	telefonoAttivita = document.querySelector('#telefonoAttivita');
@@ -1076,6 +1078,8 @@ var	telefonoAttivita = document.querySelector('#telefonoAttivita');
 	telefonoHome.style.display = 'block';
 	telefonoInfo.style.display = 'none';
 	telefonoAttivita.style.display = 'none';
+
+	 // --- Icone a dx ---
 
 var iconaHome = document.querySelector('#iconaHome');
 var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
@@ -1091,10 +1095,22 @@ var iconaAttivitaSelected = document.querySelector('#iconaAttivitaSelected');
 	iconaAttivita.style.display = 'block';
 	iconaAttivitaSelected.style.display = 'none';
 
+	// --- Testi---
+
+var testoHome = document.querySelector('#TestoHome');
+var testoInfo = document.querySelector('#TestoInfo');
+var testoAttivita = document.querySelector('#TestoAttività');
+
+	testoHome.style.display = 'block';
+	testoInfo.style.display = 'none';
+	testoAttivita.style.display = 'none';
 }
 
 
 function appearInfo() {
+
+ // --- Schermate iphone ---
+
 var telefonoHome = document.querySelector('#telefonoHome');
 var telefonoInfo = document.querySelector('#telefonoInfo');
 var telefonoAttivita = document.querySelector('#telefonoAttivita');
@@ -1102,6 +1118,8 @@ var telefonoAttivita = document.querySelector('#telefonoAttivita');
 	telefonoHome.style.display = 'none';
 	telefonoInfo.style.display = 'block';
 	telefonoAttivita.style.display = 'none';
+
+	 // --- Icone a dx ---
 
 var iconaHome = document.querySelector('#iconaHome');
 var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
@@ -1117,10 +1135,22 @@ var iconaAttivitaSelected = document.querySelector('#iconaAttivitaSelected');
 	iconaAttivita.style.display = 'block';
 	iconaAttivitaSelected.style.display = 'none';
 
+		 // --- Testi---
+
+var testoHome = document.querySelector('#TestoHome');
+var testoInfo = document.querySelector('#TestoInfo');
+var testoAttivita = document.querySelector('#TestoAttivita');
+
+	testoHome.style.display = 'none';
+	testoInfo.style.display = 'block';
+	testoAttivita.style.display = 'none';
 }
 
 
 function appearAttivita() {
+
+ // --- Schermate iphone ---
+
 var	telefonoHome = document.querySelector('#telefonoHome');
 var	telefonoInfo = document.querySelector('#telefonoInfo');
 var	telefonoAttivita = document.querySelector('#telefonoAttivita');
@@ -1128,6 +1158,8 @@ var	telefonoAttivita = document.querySelector('#telefonoAttivita');
 	telefonoHome.style.display = 'none';
 	telefonoInfo.style.display = 'none';
 	telefonoAttivita.style.display = 'block';
+
+	 // --- Icone a dx ---
 
 var iconaHome = document.querySelector('#iconaHome');
 var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
@@ -1142,4 +1174,14 @@ var iconaAttivitaSelected = document.querySelector('#iconaAttivitaSelected');
 	iconaInfoSelected.style.display = 'none';
 	iconaAttivita.style.display = 'none';
 	iconaAttivitaSelected.style.display = 'block';
+
+		 // --- Testi---
+
+var testoHome = document.querySelector('#TestoHome');
+var testoInfo = document.querySelector('#TestoInfo');
+var testoAttivita = document.querySelector('#TestoAttivita');
+
+	testoHome.style.display = 'none';
+	testoInfo.style.display = 'none';
+	testoAttivita.style.display = 'block';
 }
