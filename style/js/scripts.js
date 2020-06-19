@@ -1075,13 +1075,52 @@ var telefonoInfo
 var attivita
 var telefonoAttivita
 
-function cambioSchermata() {
-	home = select('#iconaHome');
-	telefonoHome = select('#telefonoHome');
+// function cambioSchermata() {
+// 	home = select('#iconaHome');
+// 	telefonoHome = select('#telefonoHome');
+//
+// 	info = select('#iconaInfo');
+// 	telefonoInfo = select('#telefonoInfo');
+//
+// 	attivita = select('#iconaAttivita');
+// 	telefonoAttivita = select('#telefonoAttivita');
+// }
 
-	info = select('#iconaInfo');
-	telefonoInfo = select('#telefonoInfo');
+function appearHome() {
 
-	attivita = select('#iconaAttivita');
-	telefonoAttivita = select('#telefonoAttivita');
+var telefonoHome = document.querySelector('#telefonoHome');
+
+var	telefonoInfo = document.querySelector('#telefonoInfo');
+
+var	telefonoAttivita = document.querySelector('#telefonoAttivita');
+
+	telefonoHome.style.display = 'block';
+	telefonoInfo.style.display = 'none';
+	telefonoAttivita.style.display = 'none';
+}
+
+
+function appearInfo() {
+var telefonoHome = document.querySelector('#telefonoHome');
+
+var telefonoInfo = document.querySelector('#telefonoInfo');
+
+var telefonoAttivita = document.querySelector('#telefonoAttivita');
+
+	telefonoHome.style.display = 'none';
+	telefonoInfo.style.display = 'block';
+	telefonoAttivita.style.display = 'none';
+}
+
+
+function appearAttivita() {
+var	telefonoHome = document.querySelector('#telefonoHome');
+
+var	telefonoInfo = document.querySelector('#telefonoInfo');
+
+var	telefonoAttivita = document.querySelector('#telefonoAttivita');
+
+	telefonoHome.style.display = 'none';
+	telefonoInfo.style.display = 'none';
+	telefonoAttivita.style.display = 'block';
 }
