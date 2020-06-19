@@ -1066,61 +1066,80 @@ $(document).ready(function() {
 /*	IPHONE SCRIPT
 /*-----------------------------------------------------------------------------------*/
 
-var home
-var telefonoHome
-
-var info
-var telefonoInfo
-
-var attivita
-var telefonoAttivita
-
-// function cambioSchermata() {
-// 	home = select('#iconaHome');
-// 	telefonoHome = select('#telefonoHome');
-//
-// 	info = select('#iconaInfo');
-// 	telefonoInfo = select('#telefonoInfo');
-//
-// 	attivita = select('#iconaAttivita');
-// 	telefonoAttivita = select('#telefonoAttivita');
-// }
 
 function appearHome() {
 
 var telefonoHome = document.querySelector('#telefonoHome');
-
 var	telefonoInfo = document.querySelector('#telefonoInfo');
-
 var	telefonoAttivita = document.querySelector('#telefonoAttivita');
 
 	telefonoHome.style.display = 'block';
 	telefonoInfo.style.display = 'none';
 	telefonoAttivita.style.display = 'none';
+
+var iconaHome = document.querySelector('#iconaHome');
+var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
+var iconaInfo = document.querySelector('#iconaInfo');
+var iconaInfoSelected = document.querySelector('#iconaInfoSelected');
+var iconaAttivita = document.querySelector('#iconaAttivita');
+var iconaAttivitaSelected = document.querySelector('#iconaAttivitaSelected');
+
+	iconaHome.style.display = 'none';
+	iconaHomeSelected.style.display = 'block';
+	iconaInfo.style.display = 'block';
+	iconaInfoSelected.style.display = 'none';
+	iconaAttivita.style.display = 'block';
+	iconaAttivitaSelected.style.display = 'none';
+
 }
 
 
 function appearInfo() {
 var telefonoHome = document.querySelector('#telefonoHome');
-
 var telefonoInfo = document.querySelector('#telefonoInfo');
-
 var telefonoAttivita = document.querySelector('#telefonoAttivita');
 
 	telefonoHome.style.display = 'none';
 	telefonoInfo.style.display = 'block';
 	telefonoAttivita.style.display = 'none';
+
+var iconaHome = document.querySelector('#iconaHome');
+var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
+var iconaInfo = document.querySelector('#iconaInfo');
+var iconaInfoSelected = document.querySelector('#iconaInfoSelected');
+var iconaAttivita = document.querySelector('#iconaAttivita');
+var iconaAttivitaSelected = document.querySelector('#iconaAttivitaSelected');
+
+	iconaHome.style.display = 'block';
+	iconaHomeSelected.style.display = 'none';
+	iconaInfo.style.display = 'none';
+	iconaInfoSelected.style.display = 'block';
+	iconaAttivita.style.display = 'block';
+	iconaAttivitaSelected.style.display = 'none';
+
 }
 
 
 function appearAttivita() {
 var	telefonoHome = document.querySelector('#telefonoHome');
-
 var	telefonoInfo = document.querySelector('#telefonoInfo');
-
 var	telefonoAttivita = document.querySelector('#telefonoAttivita');
 
 	telefonoHome.style.display = 'none';
 	telefonoInfo.style.display = 'none';
 	telefonoAttivita.style.display = 'block';
+
+var iconaHome = document.querySelector('#iconaHome');
+var iconaHomeSelected = document.querySelector('#iconaHomeSelected');
+var iconaInfo = document.querySelector('#iconaInfo');
+var iconaInfoSelected = document.querySelector('#iconaInfoSelected');
+var iconaAttivita = document.querySelector('#iconaAttivita');
+var iconaAttivitaSelected = document.querySelector('#iconaAttivitaSelected');
+
+	iconaHome.style.display = 'block';
+	iconaHomeSelected.style.display = 'none';
+	iconaInfo.style.display = 'block';
+	iconaInfoSelected.style.display = 'none';
+	iconaAttivita.style.display = 'none';
+	iconaAttivitaSelected.style.display = 'block';
 }
