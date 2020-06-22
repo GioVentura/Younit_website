@@ -1100,11 +1100,11 @@ var iconaAttivitaSelected = document.querySelector('#iconaAttivitaSelected');
 
 var testoHome = document.querySelector('#TestoHome');
 var testoInfo = document.querySelector('#TestoInfo');
-var testoAttivita = document.querySelector('#TestoAttività');
+var testoAttivita = document.querySelector('#TestoAttivita');
 
-	testoHome.style.display = 'block';
-	testoInfo.style.display = 'none';
-	testoAttivita.style.display = 'none';
+testoHome.style.display = 'block';
+testoInfo.style.display = 'none';
+testoAttivita.style.display = 'none';
 }
 
 
