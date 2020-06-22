@@ -1219,7 +1219,7 @@ var bott3Selected = document.querySelector('#bott3Selected');
 	bott2.style.display = 'block';
 	bott2Selected.style.display = 'none';
 	bott3.style.display = 'block';
-	bott1Selected.style.display = 'none';
+	bott3Selected.style.display = 'none';
 
 	// --- Testi---
 
