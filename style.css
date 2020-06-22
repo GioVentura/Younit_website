@@ -129,6 +129,13 @@ button:focus {
   background-repeat: no-repeat;
 }
 
+#bgOrange{
+  background-image: url("style/images/illustrazioni/bgOrange.png");
+  background-size: 100%;
+  height: 620px;
+  background-repeat: no-repeat;
+}
+
 html {
     font-size: 20px;
 }
@@ -514,6 +521,19 @@ h6.text-uppercase,
 #brandAssets {
   margin-top: 190px;
 }
+
+
+#bg-lilla2{
+  position:relative;
+  z-index: 11;
+  top: -180px;
+  background-image: url("style/images/art/back_lilla.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 0, 0, 0.0);
+  height: 1000px;
+}
+
 
 .text-muted {
     color: #808080 !important;
@@ -2510,6 +2530,17 @@ position: relative;
     opacity: 0;
     z-index: -1;
   }
+}
+
+
+#marchio {
+  margin-left: 90%;
+width: 90%;
+margin-top: 40%;
+}
+
+#txt {
+  color: #fff;
 }
 /*-----------------------------------------------------------------------------------*/
 /*	26. SERVICES
@@ -4848,6 +4879,13 @@ padding : 8% */
 
 #testoSicur {
   display: none;
+}
+
+
+#lineeGuida{
+  display: block;
+  width: 110%;
+
 }
 
 /*-----------------------------------------------------------------------------------*/
