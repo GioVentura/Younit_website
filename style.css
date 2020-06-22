@@ -1143,17 +1143,18 @@ input.search-box:not(:valid) ~ .close-icon {
   border-radius: 16px;
   box-shadow: 5px 5px 15px rgba(84, 51, 163, 0.6);
   width: 159px;
-height: 51px;
+height: 50px;
 font-family: MohrRoundedAlt-SemiBold;
 font-style: normal;
 font-weight: 600;
-font-size: 20px;
-text-transform: none;
+font-size: 16px;
+text-transform: uppercase;
 text-align: center;
-letter-spacing: -0.3px;
-padding: 10% 0 0 0;
+letter-spacing: 0.2px;
+padding: 11% 0 0 0;
 color: #7E48E5;
 }
+
 .scarica-btn{
   background: #fff;
   box-shadow: 3px 4px 8px rgba(126, 72, 229, 0.22);
@@ -1163,10 +1164,10 @@ height: 50px;
 font-family: MohrRoundedAlt-SemiBold;
 font-style: normal;
 font-weight: 600;
-  font-size: 20px;
-text-transform: none;
+font-size: 16px;
+text-transform: uppercase;
 text-align: center;
-letter-spacing: -0.3px;
+letter-spacing: 0.2px;
 color: #7E48E5;
 margin-left: -5px;
 padding: 2.5%;
@@ -1176,6 +1177,9 @@ padding: 2.5%;
   width: 170px;
 }
 
+.spaziatura{
+  padding: 3% !important;
+}
 
 .OrangeRect{
   width: 11.5% !important;
