@@ -1131,16 +1131,16 @@ letter-spacing: -0.3px;
 padding: 10% 0 0 0;
 color: #7E48E5;
 }
-#scarica-btn{
-  background: #F0E8FF;
+.scarica-btn{
+  background: #fff;
   box-shadow: 3px 4px 8px rgba(126, 72, 229, 0.22);
   border-radius: 16px;
-  width: 159px;
-height: 51px;
+  /* width: 110px !important; */
+height: 40px;
 font-family: MohrRoundedAlt-SemiBold;
 font-style: normal;
 font-weight: 600;
-font-size: 20px;
+  font-size: 20px;
 text-transform: none;
 text-align: center;
 letter-spacing: -0.3px;
@@ -1148,23 +1148,7 @@ padding: 4% 0 0 0;
 color: #7E48E5;
 margin-left: -5px;
 }
-#scarica-btn2{
-  background: #F8F5FE;
-  box-shadow: 3px 4px 8px rgba(126, 72, 229, 0.22);
-  border-radius: 16px;
-  width: 159px;
-height: 51px;
-font-family: MohrRoundedAlt-SemiBold;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-text-transform: none;
-text-align: center;
-letter-spacing: -0.3px;
-padding: 4% 0 0 0;
-color: #7E48E5;
-margin-left: -5px;
-}
+
 
 .OrangeRect{
   width: 11.5% !important;
@@ -1210,7 +1194,6 @@ margin-left: -5px;
 }
 .btn-l {
     padding: 1.05rem 1.5rem 1rem;
-    font-size: 0.7rem;
 }
 .btn.fixed-width {
     width: 165px
@@ -1426,24 +1409,16 @@ margin-left: -5px;
 .btn.btn-strong-hover.btn-white#younisciti-btn.active {
     box-shadow: var(--btn-strong-hover-white);
 }
-#scarica-btn:hover,
-#scarica-btn:focus,
-#scarica-btn:active,
-#scarica-btn.active {
+.scarica-btn:hover,
+.scarica-btn:focus,
+.scarica-btn:active,
+.scarica-btn.active {
     background: #7E48E5;
     color: #fff;
     margin-top: 1px;
     /* margin-left: 0.5px; */
 }
-#scarica-btn2:hover,
-#scarica-btn2:focus,
-#scarica-btn2:active,
-#scarica-btn2.active {
-    background: #7E48E5;
-    color: #fff;
-    margin-top: 1px;
-    /* margin-left: 0.5px; */
-}
+
 
 .btn.btn-strong-hover.btn-red:hover,
 .btn.btn-strong-hover.btn-red:active,
@@ -4751,8 +4726,10 @@ top: -800px;
 #ScaricaLApp{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  height:700px;
+  justify-content: center;
+  text-align: center;
+  height:600px;
+  padding: 0 5% 0 3%;
 }
 
 #glifo{
@@ -4760,8 +4737,22 @@ top: -800px;
 }
 
 #mockup{
-  width: 100%;
+  width: 90%;
 }
+
+#storeButtons{
+  display: block;
+  width:100%;
+
+}
+#storeButtons a{
+  display: inline-block;
+  width: 159px;
+  height: 50px;
+padding: 2.5%;
+  margin: 2%;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	 CHI SIAMO PAGE
 /*-----------------------------------------------------------------------------------*/
