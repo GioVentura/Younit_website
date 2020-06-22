@@ -1135,8 +1135,8 @@ color: #7E48E5;
   background: #fff;
   box-shadow: 3px 4px 8px rgba(126, 72, 229, 0.22);
   border-radius: 16px;
-  /* width: 110px !important; */
-height: 40px;
+  display: inline-block;
+height: 50px;
 font-family: MohrRoundedAlt-SemiBold;
 font-style: normal;
 font-weight: 600;
@@ -1144,9 +1144,13 @@ font-weight: 600;
 text-transform: none;
 text-align: center;
 letter-spacing: -0.3px;
-padding: 4% 0 0 0;
 color: #7E48E5;
 margin-left: -5px;
+padding: 2.5%;
+}
+
+.w-170{
+  width: 170px;
 }
 
 
@@ -4746,10 +4750,8 @@ top: -800px;
 
 }
 #storeButtons a{
-  display: inline-block;
   width: 159px;
-  height: 50px;
-padding: 2.5%;
+
   margin: 2%;
 }
 
