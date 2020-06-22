@@ -116,6 +116,8 @@ button:focus {
 /*-----------------------------------------------------------------------------------*/
 /*	02. GENERAL
 /*-----------------------------------------------------------------------------------*/
+
+
 #bgtotal{
   background-image: url("style/images/art/copertinaBandierine.png");
   background-size: 100%;
@@ -447,9 +449,9 @@ h6.text-uppercase,
     color: #7E48E5;
 }
 .display-4 {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.3rem;
+    color: #fff !important;
 }
 .lead {
     font-size: 1rem;
@@ -508,7 +510,7 @@ h6.text-uppercase,
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: rgba(255, 0, 0, 0.0);
-  height: 310px;
+  height: 340px;
 }
 
 #brandAssets {
@@ -1642,7 +1644,7 @@ footer.dark-wrapper,
     background: transparent repeat left top;
 }
 .gradient-wrapper {
-    background-image: linear-gradient(135deg, rgba(149, 74, 166, 1) 0%, rgba(114, 90, 238, 1) 100%);
+    background: linear-gradient(90deg, #FFA31E 0%, #FF823E 100%);
 }
 .fill-white-wrapper {
     fill: #fff;
@@ -1865,9 +1867,9 @@ hr {
     border: 0;
     padding: 0;
     margin: 0;
-    border-bottom: 1px solid rgba(var(--rgb-black), 0.1);
-    padding-top: 3.5rem;
-    margin-bottom: 3.5rem;
+    border-bottom: 1px solid #fff;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
 }
 hr.hr-footer {
     padding-top: 0;
@@ -3172,6 +3174,38 @@ figure.overlay img {
 .sidebar .meta a:hover {
     color: #606060 !important;
 }
+.font-light{
+font-style: light !important;
+font-weight: 300;
+}
+
+#my-footer{
+  position:relative;
+  z-index: 13;
+  top: -860px;
+  height:500px;
+}
+
+footer p, footer a{
+  font-family: Graphik;
+font-style: Normal;
+font-weight: Normal;
+font-size: 14px;
+line-height: 28px;
+letter-spacing: -0.3px;
+color: #fff !important;
+}
+
+footer a:hover{
+  color: #fff;
+  font-style: Regular;
+  font-weight: 500;
+}
+
+footer hr{
+  color: #fff;
+}
+
 footer [class*="col-"] .widget {
     margin-top: 30px
 }
@@ -4985,18 +5019,26 @@ video.player {
 .social li a {
     color: inherit;
     transition: all 200ms ease-in-out;
+
 }
 .social li a i {
     opacity: 1;
-    transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out; padding: 21%;
+    border: solid #fff 2px;
+    border-radius: 30px;
+
 }
 [class*="color-s-"]:hover,
 .social li a:hover i {
-    opacity: 0.8;
-    transition: all 200ms ease-in-out;
+  color: #7E48E5 !important;
+    transition: all 300ms ease-in-out;
+    background-color: #fff;
+    border: solid #fff 2px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.28);
 }
 .social-mute a i {
-    color: #404040 !important;
+    color: #fff !important;
 }
 .inverse-text .social-mute a i {
     color: var(--color-white) !important;
