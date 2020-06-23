@@ -783,6 +783,12 @@ acronym[title] {
     color: #C1A4F6 !important;
     margin-top: 5%;
 }
+.banner--stick .w-130{
+  background-color: #EFE7FF;
+    color: #7E48E5 !important;
+    margin-top: 5%;
+}
+
 .banner--stick li a:hover,
 .banner--stick li a:focus,
 .banner--stick li a:active,
