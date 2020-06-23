@@ -29,28 +29,16 @@
 <body>
   <div class="content-fluid" id="bgtotal">
   <div class="content-wrapper">
-    <nav class="navbar absolute transparent inverse-text navbar-hover-opacity navbar-expand-lg">
-      <div class="container">
-        <div class="navbar-brand"><a href="index.html"><img src="#" srcset="style/images/logo.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/logo-light.png" class="logo-light" alt="" /></a></div>
-        <div class="navbar-other ml-auto order-lg-3">
+    <nav class="navbar absolute transparent navbar-expand-lg nav-uppercase">
+      <div class="container flex-row justify-content-center">
+        <div id="logodiv" class="navbar-brand"><a href="index.html"><img src="#" srcset="style/images/logo.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/logo-light.png" class="logo-light" alt="" /></a></div>
+        <div class="ml-auto order-lg-3">
           <ul class="navbar-nav flex-row align-items-center" data-sm-skip="true">
             <li class="nav-item">
               <div class="navbar-hamburger d-lg-none d-xl-none ml-auto"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
             </li>
-            <li class="dropdown search-dropdown position-static nav-item">
-              <a href="#" role="button" class="collapse-toggle" data-toggle="collapse" data-target=".search-dropdown-menu" aria-haspopup="true" aria-expanded="false"><i class="jam jam-search"></i></a>
-              <div class="dropdown-menu search-dropdown-menu w-100 collapse">
-                <div class="form-wrapper">
-                  <form class="inverse-text">
-                    <input type="text" class="form-control" placeholder="Search something">
-                  </form>
-                  <!-- /.search-form -->
-                  <i class="dropdown-close jam jam-close"></i>
-                </div>
-                <!-- /.form-wrapper -->
-              </div>
-            </li>
-            <li class="nav-item"><button class="plain" data-toggle="offcanvas-info"><i class="jam jam-info"></i></button></li>
+            <li class="nav-item d-none d-lg-block pl-0"><a href="#" class="scarica-btn w-130 btn-default m-0">Android</a></li>
+            <li class="nav-item d-none d-lg-block pl-0"><a href="#" class="scarica-btn w-130 btn-default m-0">iOS</a></li>
           </ul>
           <!-- /.navbar-nav -->
         </div>
@@ -60,31 +48,18 @@
             <a href="index.html"><img src="#" srcset="style/images/logo-light.png 1x, style/images/logo-light@2x.png 2x" alt="" /></a>
             <button class="plain offcanvas-close offcanvas-nav-close"><i class="jam jam-close"></i></button>
           </div>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
 
+          <ul class="navbar-nav">
+            <li class="nav-item"><a id="item-selected"class="nav-link" href="index.html">Home</a>
             </li>
-
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Features</a>
             </li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="comunità.html">Comunità</a>
-
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Pages</a>
             </li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="Chi Siamo.html">Chi Siamo</a>
-            </li>
-
-                  </div>
-                  <!--/.row -->
-                </li>
-                <!--/.mega-menu-content-->
-              </ul>
-              <!--/.dropdown-menu -->
-            </li>
-
-
+          </ul>
           <!-- /.navbar-nav -->
         </div>
         <!-- /.navbar-collapse -->
-
       </div>
       <!-- /.container -->
     </nav>
@@ -97,10 +72,10 @@
           <h1 class="display-1" data-aos="fade-up" data-aos-delay="400">Il mondo<br>
     di Younit</h1>
           <div class="space10"></div>
-          <p class="lead larger" data-aos="fade-up" data-aos-delay="700" id="onlinessStatement">L’unica app dedicata agli <span id="it"> Italiani all’estero </span> per creare legami con altri connazionali nella stessa area geografica.
+          <p class="lead larger p_titolo" data-aos="fade-up" data-aos-delay="700">L’unica app dedicata agli <span class="spantitolo"> Italiani all’estero </span> per creare legami con altri connazionali nella stessa area geografica.
           <div class="space25"></div>
           <div class="d-inline-block" data-aos="fade-up" data-aos-delay="1000">
-            <a href="#" id="younisciti-btn" class="btn btn-l btn-white btn-strong-hover btn-icon btn-icon-left mr-10"> Younisciti</a>
+            <a href="#ancora" id="younisciti-btn" class="btn btn-l btn-white btn-strong-hover btn-icon btn-icon-left mr-10"> Younisciti</a>
           </div>
         </div>
         <!--/column -->
@@ -114,6 +89,7 @@
 
     <div id="#upperSearch" class="container" style="position:relative; z-index: 10;" data-aos="fade-up" data-aos-delay="500">
       <div class="space100"></div>
+      <a id="arrivo" name="ancora"></a>
       <div class="space100"></div>
       <div class="row">
         <div class="col-lg-7 col-xl-6">
@@ -160,6 +136,7 @@
     </div>
 
     </div> <!--/.container -->
+  </div> <!--/#bgtotal -->
 
 <div class="container-fluid" id="bg-lilla">
     <div class="container"  data-aos="fade-up" data-aos-delay="500">
