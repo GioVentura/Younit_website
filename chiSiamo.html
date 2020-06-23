@@ -26,28 +26,16 @@
 </head>
 <body>
   <div class="content-wrapper">
-    <nav class="navbar absolute transparent inverse-text navbar-hover-opacity navbar-expand-lg">
-      <div class="container">
-        <div class="navbar-brand"><a href="index.html"><img src="#" srcset="style/images/logo.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/logo-light.png" class="logo-light" alt="" /></a></div>
-        <div class="navbar-other ml-auto order-lg-3">
+    <nav class="navbar absolute transparent navbar-expand-lg nav-uppercase">
+      <div class="container flex-row justify-content-center">
+        <div id="logodiv" class="navbar-brand"><a href="index.html"><img src="#" srcset="style/images/logo.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/logo-light.png" class="logo-light" alt="" /></a></div>
+        <div class="ml-auto order-lg-3">
           <ul class="navbar-nav flex-row align-items-center" data-sm-skip="true">
             <li class="nav-item">
               <div class="navbar-hamburger d-lg-none d-xl-none ml-auto"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
             </li>
-            <li class="dropdown search-dropdown position-static nav-item">
-              <a href="#" role="button" class="collapse-toggle" data-toggle="collapse" data-target=".search-dropdown-menu" aria-haspopup="true" aria-expanded="false"><i class="jam jam-search"></i></a>
-              <div class="dropdown-menu search-dropdown-menu w-100 collapse">
-                <div class="form-wrapper">
-                  <form class="inverse-text">
-                    <input type="text" class="form-control" placeholder="Search something">
-                  </form>
-                  <!-- /.search-form -->
-                  <i class="dropdown-close jam jam-close"></i>
-                </div>
-                <!-- /.form-wrapper -->
-              </div>
-            </li>
-            <li class="nav-item"><button class="plain" data-toggle="offcanvas-info"><i class="jam jam-info"></i></button></li>
+            <li class="nav-item d-none d-lg-block pl-0"><a href="#" class="scarica-btn w-130 btn-default m-0">Android</a></li>
+            <li class="nav-item d-none d-lg-block pl-0"><a href="#" class="scarica-btn w-130 btn-default m-0">iOS</a></li>
           </ul>
           <!-- /.navbar-nav -->
         </div>
@@ -57,31 +45,18 @@
             <a href="index.html"><img src="#" srcset="style/images/logo-light.png 1x, style/images/logo-light@2x.png 2x" alt="" /></a>
             <button class="plain offcanvas-close offcanvas-nav-close"><i class="jam jam-close"></i></button>
           </div>
-          <ul class="navbar-nav ml-auto">
+
+          <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
-
             </li>
-
+            <li class="nav-item"><a class="nav-link" href="comunità.html">Comunità</a>
             </li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Comunità</a>
-
+            <li class="nav-item"><a id="item-selected"class="nav-link" href="chiSiamo.html">Chi Siamo</a>
             </li>
-            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Chi Siamo</a>
-            </li>
-
-                  </div>
-                  <!--/.row -->
-                </li>
-                <!--/.mega-menu-content-->
-              </ul>
-              <!--/.dropdown-menu -->
-            </li>
-
-
+          </ul>
           <!-- /.navbar-nav -->
         </div>
         <!-- /.navbar-collapse -->
-
       </div>
       <!-- /.container -->
     </nav>
@@ -191,7 +166,7 @@
 
                     <p class="carouselText">Scarica il logo Younit e altre risorse da utilizzare sul tuo sito Web o per altri materiali di marketing</p>
                     <div id="lineeGuida">
-                        <a href="#" class="scarica-btn"> Linee Guida </a>
+                        <a href="brandAssets.html" class="scarica-btn"> Linee Guida </a>
                     </div>
 
                   </div>
@@ -211,6 +186,82 @@
     </div>
     <!--/column -->
   </div>
+
+
+  <!-- / FOOTER -->
+ <div class="space50"></div>
+   <footer class="gradient-wrapper" id="my-footer2">
+     <div class="container inner">
+       <div class="row">
+         <div class="col-md-12 col-lg-3 text-center text-lg-left">
+           <div class="widget"> <img style="width: 70%; margin-top:-25px;" src="style/images/logo-light.png" alt="" />
+             <div class="space20"></div>
+             <p>Younit è L’unica app dedicata agli Italiani all’estero per creare legami con altri connazionali nella stessa area geografica.</p>
+           </div>
+           <!-- /.widget -->
+         </div>
+         <!-- /column -->
+         <div class="space30 d-lg-none d-xl-none"></div>
+         <div class="col-6 col-md-3 col-lg-2 offset-lg-1">
+           <div class="widget">
+             <h4 class="display-4">Pagine</h4>
+             <ul class="list-unstyled mb-0">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="comunità.html">Comunità</a></li>
+               <li><a href="Chi Siamo.html">Chi Siamo</a></li>
+               <li><a href="lineeGuida.html">Linee Guida</a></li>
+             </ul>
+           </div>
+           <!-- /.widget -->
+         </div>
+         <!-- /column -->
+         <div class="col-6 col-md-3 col-lg-2">
+             <div class="widget">
+               <h4 class="display-4">Condizioni</h4>
+               <ul class="list-unstyled mb-0">
+                 <li><a href="#">Privacy Policy</a></li>
+               </ul>
+             </div>
+           <!-- /.widget -->
+         </div>
+         <!-- /column -->
+         <div class="col-6 col-md-3 col-lg-2">
+           <div class="widget">
+             <h4 class="display-4">Download App</h4>
+             <ul class="list-unstyled mb-0">
+               <li><a href="#">Scarica per Android</a></li>
+               <li><a href="#">Scarica per iOS</a></li>
+             </ul>
+           </div>
+           <!-- /.widget -->
+         </div>
+         <!-- /column -->
+         <div class="col-6 col-md-3 col-lg-2">
+           <div class="widget">
+             <h4 class="display-4">Contatti</h4>
+             <ul class="list-unstyled mb-0">
+               <li><a href="#">Supporto</a></li>
+               <li><a href="mailto:info@younit.com">info@younit.com</a></li>
+             </ul>
+           </div>
+         <!-- /column -->
+       </div>
+       <!-- /.row -->
+     </div>
+     <!-- /.container -->
+     <hr>
+     <div class="container inner pt-0 pb-40 d-flex align-items-center">
+       <p class="mb-0 mr-auto font-light">Younit Europe S.A. | Via Giuseppe Candiani, 72 20138 Milano | VAT LU30726739 | società del gruppo Younit S.p.A<br>© 2020 Snowlake. All rights reserved.</p>
+       <ul class="social social-mute social-s ml-auto">
+         <li><a href="https://www.instagram.com/younit_official/?hl=it" target="_blank"><i style="font-size:30px;" class="jam jam-instagram"></i></a></li>
+
+       </ul>
+     </div>
+   </footer>
+
+
+      <!-- / END FOOTER -->
+
 
 <!-- <div class="container pb-0">
       <div class="space50"></div>
