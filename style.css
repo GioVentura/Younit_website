@@ -485,6 +485,12 @@ h6.text-uppercase,
     font-size: 1.2rem;
     line-height: 1.7rem;
 }
+#cont_titolo_com{
+position: relative;
+top:600%;
+left: 17%;
+}
+
 .p_titolo {
   font-size: 1.2rem;
   line-height: 1.7rem;
@@ -1013,7 +1019,7 @@ color: #7E48E5;
   background: #FFFFFF;
 box-shadow: 4px 4px 12px rgba(126, 72, 229, 0.22);
 border-radius: 16px;
-  width: 50%;
+  width: 40%;
 height: 51px;
 margin-left: 1.5%;
 }
