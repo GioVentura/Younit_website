@@ -796,6 +796,13 @@ acronym[title] {
   color: #7E48E5 !important;
   text-shadow: none !important;
 }
+.banner--stick .w-130:hover,
+.banner--stick .w-130:focus,
+.banner--stick .w-130:active,
+.banner--stick .w-130.active {
+  color: #fff !important;
+  text-shadow: none !important;
+}
 
 
 .banner--stick.bg-white {
