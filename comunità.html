@@ -27,105 +27,119 @@
 </head>
 
 <body id="bodycomunità">
-  <div class="content-fluid">
-  <div class="content-wrapper">
-    <nav class="navbar absolute transparent navbar-expand-lg nav-uppercase">
-      <div class="container flex-row justify-content-center">
-        <div id="logodiv" class="navbar-brand"><a href="index.html"><img src="#" srcset="style/images/logo.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/logo.png" class="logo-light" alt="" /></a></div>
-        <div class="ml-auto order-lg-3">
-          <ul class="navbar-nav flex-row align-items-center" data-sm-skip="true">
-            <li class="nav-item">
-              <div class="navbar-hamburger d-lg-none d-xl-none ml-auto"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
-            </li>
-            <li class="nav-item d-none d-lg-block pl-0"><a href="#" class="scarica-btn w-130 btn-default m-0">Android</a></li>
-            <li class="nav-item d-none d-lg-block pl-0"><a href="#" class="scarica-btn w-130 btn-default m-0">iOS</a></li>
-          </ul>
-          <!-- /.navbar-nav -->
-        </div>
-        <!-- /.navbar-other -->
-        <div class="navbar-collapse offcanvas-nav">
-          <div class="offcanvas-header d-lg-none d-xl-none">
-            <a href="index.html"><img src="#" srcset="style/images/logo-light.png 1x, style/images/logo-light@2x.png 2x" alt="" /></a>
-            <button class="plain offcanvas-close offcanvas-nav-close"><i class="jam jam-close"></i></button>
+  <div class="container-fluid">
+      <div class="content-wrapper">
+        <nav class="navbar absolute transparent navbar-expand-lg nav-uppercase">
+          <div class="container flex-row justify-content-center">
+            <div id="logodiv" class="navbar-brand"><a href="index.html"><img src="#" srcset="style/images/logo.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/logo.png" class="logo-light" alt="" /></a></div>
+            <div class="ml-auto order-lg-3">
+              <ul class="navbar-nav flex-row align-items-center" data-sm-skip="true">
+                <li class="nav-item">
+                  <div class="navbar-hamburger d-lg-none d-xl-none ml-auto"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
+                </li>
+                <li class="nav-item d-none d-lg-block pl-0"><a href="#" class="scarica-btn w-130 btn-default m-0">Android</a></li>
+                <li class="nav-item d-none d-lg-block pl-0"><a href="#" class="scarica-btn w-130 btn-default m-0">iOS</a></li>
+              </ul>
+              <!-- /.navbar-nav -->
+            </div>
+            <!-- /.navbar-other -->
+            <div class="navbar-collapse offcanvas-nav">
+              <div class="offcanvas-header d-lg-none d-xl-none">
+                <a href="index.html"><img src="#" srcset="style/images/logo-light.png 1x, style/images/logo-light@2x.png 2x" alt="" /></a>
+                <button class="plain offcanvas-close offcanvas-nav-close"><i class="jam jam-close"></i></button>
+              </div>
+
+              <ul class="navbar-nav-co navbar-nav ">
+                <li class="nav-item"><a class="nav-link-co nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item"><a id="item-selected" class="nav-link" href="comunità.html">Comunità</a>
+                </li>
+                <li class="nav-item"><a class="nav-link-co nav-link" href="chiSiamo.html">Chi Siamo</a>
+                </li>
+              </ul>
+              <!-- /.navbar-nav -->
+            </div>
+            <!-- /.navbar-collapse -->
           </div>
-
-          <ul class="navbar-nav-co navbar-nav ">
-            <li class="nav-item"><a class="nav-link-co nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item"><a id="item-selected" class="nav-link" href="comunità.html">Comunità</a>
-            </li>
-            <li class="nav-item"><a class="nav-link-co nav-link" href="chiSiamo.html">Chi Siamo</a>
-            </li>
-          </ul>
-          <!-- /.navbar-nav -->
-        </div>
-        <!-- /.navbar-collapse -->
+          <!-- /.container -->
+        </nav>
+        <!-- /.navbar -->
       </div>
-      <!-- /.container -->
-    </nav>
-    <!-- /.navbar -->
   </div>
-</div>
 
-<div id="base_map" class="content-fluid">
-  <div class="flex-container" style="position:absolute; top: 90%; left:12.5%; z-index: 4; height: 52px; width:75%; border-bottom: 4px solid #7E48E5;">
-    <div class="row" style="justify-content:space-between">
+  <div id="staticbox" class="container-fluid">
+    <div id="base_map">
 
-        <div class="d-inline-block" >
-          <button class="continenti-btn">Africa</a>
-        </div>
-        <div class="d-inline-block" >
-          <button  class="continenti-btn">America</a>
-        </div>
-        <div class="d-inline-block" >
-          <button class="continenti-btn">Asia</a>
-        </div>
-        <div class="d-inline-block" >
-          <button  class="continenti-btn">Europa</a>
-        </div>
-        <div class="d-inline-block" >
-          <button  class="continenti-btn">Oceania</a>
-        </div>
 
-      </div>
-    </div>
+          <div id="titolo_main_com" class="container">
+            <div class="row">
+              <div class="col-lg-12 col-xl-12">
+                <h1 class="display-1bis" data="fade-up" data-delay="400">Seleziona il tuo<br>posto nel mondo!</h1>
+                <div class="space10"></div>
+                <p class="p_titolo_co lead larger">Scopri sulla mappa le<br>comunità già attive su <span class="spantitolo"> Younit: </span> </p>
+                <div class="space10"></div>
+                <div class="row" data="fade-up" data-delay="1000">
+                  <div id="rettangoloSearchCom">
 
-    <div id="titolo_main_com" class="container">
-      <div class="row">
-        <div class="col-lg-12 col-xl-12">
-          <h1 class="display-1bis" data="fade-up" data-delay="400">Seleziona il tuo<br>posto nel mondo!</h1>
-          <div class="space10"></div>
-          <p class="p_titolo_co lead larger">Scopri sulla mappa le<br>comunità già attive su <span class="spantitolo"> Younit: </span> </p>
-          <div class="space10"></div>
-          <div class="row" data="fade-up" data-delay="1000">
-            <div id="rettangoloSearchCom">
+                          <form>
+                            <div id="searchIcon_co"><img src="style/images/icons/searchIcon.png"></div>
+                            <input id="searchInput_co" type="text" name="focus"  class="search-box" placeholder="Cerca un Paese"/>
+                          </form>
 
-                    <form>
-                      <div id="searchIcon_co"><img src="style/images/icons/searchIcon.png"></div>
-                      <input id="searchInput_co" type="text" name="focus"  class="search-box" placeholder="Cerca un Paese"/>
-                    </form>
-
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+
+          <div id="map-container">
+                <iframe src='https://api.mapbox.com/styles/v1/gioventura/ckap2uib61wc01is6etzk6xg5.html?fresh=true&title=false&access_token=pk.eyJ1IjoiZ2lvdmVudHVyYSIsImEiOiJjaWdqdnd1aW8wMDQzdnNtNDlyeDVvc283In0.T1Yqmt2Ty9DG5pgMbwE6gQ#3.8/49/-2'></iframe>
+          </div>
+
+          <div class="flex-container" style="position:absolute; top: 90%; left:12.5%; z-index: 4; height: 52px; width:75%; border-bottom: 4px solid #7E48E5;">
+            <div id="" class="row" style="justify-content:space-between">
+                <div class="d-inline-block" >
+                  <button class="continenti-btn">Africa</a>
+                </div>
+                <div class="d-inline-block" >
+                  <button  class="continenti-btn">America</a>
+                </div>
+                <div class="d-inline-block" >
+                  <button class="continenti-btn">Asia</a>
+                </div>
+                <div class="d-inline-block" >
+                  <button  class="continenti-btn active">Europa</a>
+                </div>
+                <div class="d-inline-block" >
+                  <button  class="continenti-btn">Oceania</a>
+                </div>
+              </div>
+            </div>
+
+    </div>
+             <!-- chiusura base relative -->
+  </div>
+
+  <div id="update_data" class="container-fluid">
+    <div id="floating-part" class="container" >
+      <div id="box-1" class="row flex-container">
+        <div class="sottobox-1">
+            <h2 id="nomePaese" class="display-2">Australia</h3>
+            <img class="OrangeRect2" src="style/images/icons/Rectangle192.png">
+        </div>
+        <div class="sottobox-1" style="width:20%;">
+              <p class="p_1" id="y-attivi">Youniters attivi:</p>
+              <p class="p_2" id="n-attivi">32103</p>
+        </div>
+        <div class="sottobox-1" style="width:37%;">
+          <p class="p_1" >Comunità:</p>
+          <p class="p_2" id="city-1">Perth</p>
+          <p class="p_2" id="city-2">Camberra</p>
+          <p class="p_2" id="city-13">Sidney</p>
         </div>
       </div>
     </div>
-
-
-
-    <div id="map-container">
-          <iframe
-          src='https://api.mapbox.com/styles/v1/gioventura/ckap2uib61wc01is6etzk6xg5.html?fresh=true&title=false&access_token=pk.eyJ1IjoiZ2lvdmVudHVyYSIsImEiOiJjaWdqdnd1aW8wMDQzdnNtNDlyeDVvc283In0.T1Yqmt2Ty9DG5pgMbwE6gQ#3.8/49/-2'/>
-    </div>
-
-
-
-
-</div>
-
-
-
-
+  </div>
 
 
 
