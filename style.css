@@ -5057,15 +5057,103 @@ padding : 8% */
 
 }
 
+
+
+
+#effect-content {
+  height: 600px;
+position: relative;
+background: center repeat-x;
+background-size: 120%;
+animation: bgMove 20s linear infinite;
+z-index: 9;
+}
+
+.effect-img {
+  max-width: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    will-change: transform;
+    pointer-events: none;
+}
+
+.carousel {
+  display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.owl-carousel {
+  display: block;
+  width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.owl-loaded {
+  display: block;
+}
+
+.owl-stage-outer{
+  position: relative;
+  overflow: hidden;
+}
+
+.owl-stage {
+  position: relative;
+    touch-action: manipulation;
+}
+
+.owl-item {
+  position: relative;
+    min-height: 1px;
+    float: left;
+}
+
+.owl-item img {
+    display: block;
+    width: 100%;
+}
+
 #my-footer2{
   position:relative;
   z-index: 13;
 
 }
 
+
+#bgIG{
+  background-image: url("style/images/illustrazioni/bgIG.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#txtIG{
+  animation: bgMove 20s linear infinite;
+  background: center repeat-x;
+  font-size: 80px;
+  text-align: right;
+  font-style: "MohrRounded-SemiBold";
+  margin-top: 0;
+    margin-left: 5%;
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #7E48E5;
+}
+
+
 /*-----------------------------------------------------------------------------------*/
 /*	51. BRAND ASSETS PAGE
 /*-----------------------------------------------------------------------------------*/
+
+
+
 
 #ba1{
   margin-top: 80%;
