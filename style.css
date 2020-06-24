@@ -5207,7 +5207,31 @@ padding : 8% */
 }
 
 
+.slide-left {
+	-webkit-animation: slide-left 7s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
+	        animation: slide-left 7s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
+}
 
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
 
 #effect-content {
   height: 600px;
@@ -5283,8 +5307,7 @@ z-index: 9;
   background-repeat: no-repeat;
 }
 #txtIG{
-  animation: bgMove 20s linear infinite;
-  background: center repeat-x;
+
   font-size: 80px;
   text-align: right;
   font-style: "MohrRounded-SemiBold";
