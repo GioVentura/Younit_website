@@ -679,12 +679,17 @@ canvas {
 .nav-fill .nav-item {
     text-align: left;
 }
-.nav-fill>.nav-item {
+.nav-fill .nav-item {
     text-align: center;
 }
 .navbar-nav .nav-link {
     color: #fff;
 }
+
+.navbar-nav-co .nav-link-co {
+    color: #A885EC !important;
+}
+
 .navbar-nav .nav-link,
 .dropdown-item,
 .mega-menu-content a {
@@ -7162,6 +7167,9 @@ footer.inverse-text address {
 #logodiv img{
   width: 140px;
 }
+#logodiv img:hover{
+  width: 145px;
+}
 
 @media (min-width: 1280px) {
     .split-layout .content-wrapper {
@@ -7232,7 +7240,7 @@ footer.inverse-text address {
     .mega-menu-content a:hover,
     .mega-menu-content a:focus {
       color: #fff;
-font-size: 16px;
+      font-size: 16px;
       font-weight: bold;
     }
     .navbar-hover-opacity:not(.inverse-text) .navbar-nav .nav-link:hover,

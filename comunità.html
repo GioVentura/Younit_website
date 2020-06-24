@@ -27,7 +27,7 @@
 <style>
 iframe{
   width: 100%;
-  height: 700px;
+  height: 100%;
 }
 </style>
 </head>
@@ -36,7 +36,7 @@ iframe{
   <div class="content-wrapper">
     <nav class="navbar absolute transparent navbar-expand-lg nav-uppercase">
       <div class="container flex-row justify-content-center">
-        <div id="logodiv" class="navbar-brand"><a href="index.html"><img src="#" srcset="style/images/logo.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/logo-light.png" class="logo-light" alt="" /></a></div>
+        <div id="logodiv" class="navbar-brand"><a href="index.html"><img src="#" srcset="style/images/logo.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/logo.png" class="logo-light" alt="" /></a></div>
         <div class="ml-auto order-lg-3">
           <ul class="navbar-nav flex-row align-items-center" data-sm-skip="true">
             <li class="nav-item">
@@ -54,12 +54,12 @@ iframe{
             <button class="plain offcanvas-close offcanvas-nav-close"><i class="jam jam-close"></i></button>
           </div>
 
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
+          <ul class="navbar-nav-co navbar-nav ">
+            <li class="nav-item"><a class="nav-link-co nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item"><a id="item-selected" class="nav-link" href="comunità.html">Comunità</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="chiSiamo.html">Chi Siamo</a>
+            <li class="nav-item"><a class="nav-link-co nav-link" href="chiSiamo.html">Chi Siamo</a>
             </li>
           </ul>
           <!-- /.navbar-nav -->
@@ -70,48 +70,36 @@ iframe{
     </nav>
     <!-- /.navbar -->
 
-<div class="content-fluid" style="background-color:red;">
-    <div id="mask" style="position: absolute;
-width: 100%;
-height: 830px;
-left: 0px;
-top: 0px;
-padding: 6.5%;" >
- <div id="map-container" style="background-color:red;height: 700px;">
+<div class="content-fluid" style="position:relative;  z-index: 1; top:0; width: 100%; height: 830px;">
 
 
-   <iframe
-     src='https://api.mapbox.com/styles/v1/gioventura/ckap2uib61wc01is6etzk6xg5.html?fresh=true&title=false&access_token=pk.eyJ1IjoiZ2lvdmVudHVyYSIsImEiOiJjaWdqdnd1aW8wMDQzdnNtNDlyeDVvc283In0.T1Yqmt2Ty9DG5pgMbwE6gQ#3.57/49/1' />
-
-    <div id="" class="container">
-      <div class="space100"></div>
-      <div class="space50"></div>
+    <div id="titolo_main_com" class="container" style="position:absolute; top: 35%; width:35%; left:14%; z-index: 3;">
       <div class="row">
-        <div class="col-lg-6 col-xl-6">
-          <h1 class="display-1bis" data-aos="fade-up" data-aos-delay="400">Seleziona il tuo<br>
-    posto nel mondo!</h1>
+        <div class="col-lg-12 col-xl-12">
+          <h1 class="display-1bis" data="fade-up" data-delay="400">Seleziona il tuo<br>posto nel mondo!</h1>
           <div class="space10"></div>
-          <p class="p_titolo_co lead larger" data-aos="fade-up" data-aos-delay="700">Scopri sulla mappa le<br>comunità già attive su <span class="spantitolo"> Younit: </span> </p>
+          <p class="p_titolo_co lead larger">Scopri sulla mappa le<br>comunità già attive su <span class="spantitolo"> Younit: </span> </p>
           <div class="space10"></div>
-          <div class="row" data-aos="fade-up" data-aos-delay="1000">
+          <div class="row" data="fade-up" data-delay="1000">
             <div id="rettangoloSearchCom">
 
-                  <form>
-                    <div id="searchIcon_co"><img src="style/images/icons/searchIcon.png"></div>
-                    <input id="searchInput_co" type="text" name="focus"  class="search-box" placeholder="Cerca un Paese"/>
-                  </form>
+                    <form>
+                      <div id="searchIcon_co"><img src="style/images/icons/searchIcon.png"></div>
+                      <input id="searchInput_co" type="text" name="focus"  class="search-box" placeholder="Cerca un Paese"/>
+                    </form>
 
             </div>
-
           </div>
         </div>
-
       </div>
-
     </div>
-   </div>
-  </div>
-  </div>
+    <div id="map-container" style="position:absolute; top: 12%; left:5%; z-index: 2; height: 87%; width:90%;">
+          <iframe
+            src='https://api.mapbox.com/styles/v1/gioventura/ckap2uib61wc01is6etzk6xg5.html?fresh=true&title=false&access_token=pk.eyJ1IjoiZ2lvdmVudHVyYSIsImEiOiJjaWdqdnd1aW8wMDQzdnNtNDlyeDVvc283In0.T1Yqmt2Ty9DG5pgMbwE6gQ#3.7/49/0.8' />
+    </div>
+
+
+</div>
 
 
 
