@@ -199,7 +199,7 @@ $(document).ready(function() {
 		$carousel.owlCarousel({
 			autoHeight: false,
 			nav: false,
-			dots: $carousel.data("dots"),
+			dots: true,
 			dotsEach: true,
 			loop: $carousel.data("loop"),
 			margin: $carousel.data("margin"),
@@ -221,7 +221,7 @@ $(document).ready(function() {
 			nav: false,
 			margin: 10,
 			autoplay: false,
-			dots: false,
+			dots: true,
 			loop: true,
 			responsiveRefreshRate: 200
 		})
@@ -236,7 +236,7 @@ $(document).ready(function() {
 		.owlCarousel({
 			items: 3,
 			margin: 10,
-			dots: false,
+			dots: true,
 			nav: false,
 			smartSpeed: 200,
 			slideSpeed: 500,

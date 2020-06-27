@@ -196,6 +196,7 @@ html {
             url('style/css/font/Graphik-Semibold.woff2') format('woff2'),
             url('style/css/font/Graphik-Semibold.woff') format('woff'),
             url('style/css/font/Graphik-Semibold.ttf') format('truetype');
+        font-weight: 600;
         font-style: normal;
         font-display: swap;
     }
@@ -207,6 +208,7 @@ html {
             url('style/css/font/Graphik-Medium.woff2') format('woff2'),
             url('style/css/font/Graphik-Medium.woff') format('woff'),
             url('style/css/font/Graphik-Medium.ttf') format('truetype');
+        font-weight: 500;
         font-style: normal;
         font-display: swap;
     }
@@ -230,6 +232,7 @@ html {
             url('style/css/font/Graphik-Light.woff2') format('woff2'),
             url('style/css/font/Graphik-Light.woff') format('woff'),
             url('style/css/font/Graphik-Light.ttf') format('truetype');
+        font-weight: 300;
         font-style: normal;
         font-display: swap;
     }
@@ -409,10 +412,8 @@ h6.text-uppercase,
 }
 
 .adjust-pos{
-  top: 270px !important;
+  top: 300px !important;
 }
-
-
 
 
 .grid-view h2.post-title {
@@ -542,6 +543,13 @@ color: #070707;
   font-size: 1.2rem;
   line-height: 1.7rem;
   color: #ffba09;
+  font-family: "MohrRounded";
+  font-weight: bold;
+}
+.spantitolo-co{
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  color: #7E48E5;
   font-family: "MohrRounded";
   font-weight: bold;
 }
@@ -4887,12 +4895,30 @@ letter-spacing: -0.3px;
     pointer-events: none;
     line-height: 1;
 }
-.owl-carousel .owl-dots {
+
+
+#mario  {
     text-align: center;
     -webkit-tap-highlight-color: transparent;
     position: absolute;
     left: 47%;
-    top: 105%;
+    top: 94% !important;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    line-height: 1;
+
+}
+
+
+.owl-carousel .owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    left: 0%;
+    top: 90%;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -4904,6 +4930,7 @@ letter-spacing: -0.3px;
 .owl-carousel.dots-left .owl-dots {
     text-align: left;
     justify-content: flex-start;
+    display: block !important;
 
 }
 .owl-carousel .owl-dots .owl-dot span {
