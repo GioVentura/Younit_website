@@ -182,16 +182,100 @@
 
               <!--/INSTAGRAM -->
 
-<div class="container-fluid">
 
-      <div class="slide-left" id="txtIG">
+
+              <style style="text/css">
+
+              .background {
+                background-image: url("style/images/illustrazioni/bgIG.png");
+                background-size: 100%;
+              }
+
+            .scroll-left {
+             height: 300px;
+             position: center;
+             font-size: 80px;
+             margin-top: 10px;
+             text-align: right;
+             font-style: "MohrRounded-SemiBold";
+             color: black;
+             -webkit-text-fill-color: white;
+             -webkit-text-stroke-width: 2px;
+             -webkit-text-stroke-color: #7E48E5;
+            }
+            .scroll-left p {
+             position: absolute;
+             width: 100%;
+             margin: 0;
+             line-height: 50px;
+             text-align: center;
+             /* Starting position */
+             -moz-transform:translateX(100%);
+             -webkit-transform:translateX(100%);
+             transform:translateX(100%);
+             /* Apply animation to this element */
+             -moz-animation: scroll-left 15s linear infinite;
+             -webkit-animation: scroll-left 15s linear infinite;
+             animation: scroll-left 15s linear infinite;
+            }
+            /* Move it (define the animation) */
+            @-moz-keyframes scroll-left {
+             0%   { -moz-transform: translateX(100%); }
+             100% { -moz-transform: translateX(-100%); }
+            }
+            @-webkit-keyframes scroll-left {
+             0%   { -webkit-transform: translateX(100%); }
+             100% { -webkit-transform: translateX(-100%); }
+            }
+            @keyframes scroll-left {
+             0%   {
+             -moz-transform: translateX(100%); /* Browser bug fix */
+             -webkit-transform: translateX(100%); /* Browser bug fix */
+             transform: translateX(100%);
+             }
+             100% {
+             -moz-transform: translateX(-100%); /* Browser bug fix */
+             -webkit-transform: translateX(-100%); /* Browser bug fix */
+             transform: translateX(-100%);
+             }
+            }
+            </style>
+
+            <div class="scroll-left">
+            <p> il tuo posto nel mondo </p>
+            </div>
+          
+
+
+
+            <div class="container-fluid" id="onda" data-aos="fade-up" data-aos-delay="500">
+            <div class="container pb-0">
+            <div class="row align-items-center">
+              <div class="col-lg-12 col-xl-12 text center">
+                              <p id="seguici">Seguici su Instagram <a href="https://www.instagram.com/younit_official/?hl=it" id="it"> @younit </a> </p>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+
+  <!--     <div class="container-fluid" id="onda">
+        <div class="col-md-2 col-lg-2 d-none d-md-flex" id="seguici">
+          Seguici su instagram <a href="#" class="scarica-btn w-130 btn-default m-0">@younit</a>
+        </div>
+     </div>
+
+
+
+
+     <div class="slide-left" id="txtIG">
          <p> il tuo posto nel mondo </p>  </div>
   </div>
+
+-->
 
 
 
   <!-- / FOOTER -->
- <div class="space50"></div>
    <footer class="gradient-wrapper" id="my-footer2">
      <div class="container inner">
        <div class="row">
