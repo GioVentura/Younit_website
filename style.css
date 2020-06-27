@@ -196,7 +196,6 @@ html {
             url('style/css/font/Graphik-Semibold.woff2') format('woff2'),
             url('style/css/font/Graphik-Semibold.woff') format('woff'),
             url('style/css/font/Graphik-Semibold.ttf') format('truetype');
-        font-weight: 600;
         font-style: normal;
         font-display: swap;
     }
@@ -208,7 +207,6 @@ html {
             url('style/css/font/Graphik-Medium.woff2') format('woff2'),
             url('style/css/font/Graphik-Medium.woff') format('woff'),
             url('style/css/font/Graphik-Medium.ttf') format('truetype');
-        font-weight: 500;
         font-style: normal;
         font-display: swap;
     }
@@ -232,7 +230,6 @@ html {
             url('style/css/font/Graphik-Light.woff2') format('woff2'),
             url('style/css/font/Graphik-Light.woff') format('woff'),
             url('style/css/font/Graphik-Light.ttf') format('truetype');
-        font-weight: 300;
         font-style: normal;
         font-display: swap;
     }
