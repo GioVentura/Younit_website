@@ -410,6 +410,14 @@ h6.text-uppercase,
     font-size: 0.7rem;
     line-height: 1rem;
 }
+
+.adjust-pos{
+  top: 270px !important;
+}
+
+
+
+
 .grid-view h2.post-title {
     margin-bottom: 1rem;
     font-size: 1.1rem;
