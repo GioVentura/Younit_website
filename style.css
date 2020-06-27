@@ -492,6 +492,12 @@ h6.text-uppercase,
     font-weight: 500;
     color: #7E48E5;
 }
+
+#Covid-tit{
+  color: #F73757 !important;
+}
+
+
 .display-3 {
     font-size: 1.6rem;
     line-height: 2.2rem;
@@ -526,7 +532,8 @@ left: 17%;
   font-size: 1.2rem;
   line-height: 1.7rem;
   color: #ffffff;
-  font-family: "Graphik-Medium";
+  font-family: "Graphik";
+  font-weight: 500;
 }
 .p_titolo_co {
 font-family: "Graphik";
@@ -677,7 +684,7 @@ canvas {
 
 #update_data{
   margin-top: 20px;
-height:1819px;
+height:2330px;
 }
 
 #floating-part{
@@ -688,7 +695,7 @@ height:1819px;
   flex-direction: row;
   align-items: center;
   justify-content: space-between ;
-  height: 10.25%;
+  height: 8%;
   width: 100%;
   margin: 0 !important;
   padding: 2% 0 0 0;
@@ -707,7 +714,7 @@ height:1819px;
 
 .p_1{
   display: inline-block;
-  font-family: Graphik;
+  font-family: "Graphik";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -719,7 +726,7 @@ height:1819px;
 
 .p_2{
   display: inline-block;
-  font-family: MohrRoundedAlt-SemiBold;
+  font-family: "MohrRounded";
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -733,17 +740,17 @@ color: #7E48E5;
 }
 
 .Text_sottotitolo{
-  font-family: Graphik;
+  font-family: "Graphik";
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
-line-height: 22px;
+font-size: 18px;
+line-height: 28px;
 letter-spacing: -0.3px;
-
+margin-left: 0.3%;
 color: #010101;
 }
 .sottotitolo_card{
-  font-family: Graphik;
+  font-family: "Graphik";
 font-style: normal;
 font-weight: normal;
 font-size: 15px;
@@ -752,6 +759,13 @@ letter-spacing: -0.3px;
 margin-bottom: 5%;
 
 color: #333333;
+}
+
+
+#notizie_covid{
+  height: 25%;
+  box-shadow: inset 0px 0px 22px rgba(126, 72, 229, 0.19);
+  background-color: #FFDFE4;
 }
 
 
@@ -1237,7 +1251,8 @@ input.search-box {
 	border: 1px solid #ccc;
   outline: 0;
   border-radius: 15px;
-  font-family: "Graphik-Regular";
+  font-family: "Graphik";
+  font-weight: normal;
 
 }
 
@@ -1387,7 +1402,7 @@ button{
   box-shadow: 5px 5px 15px rgba(84, 51, 163, 0.6);
   width: 159px;
 height: 50px;
-font-family: MohrRoundedAlt-SemiBold;
+font-family: "MohrRounded";
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -1405,7 +1420,7 @@ color: #7E48E5;
   border-radius: 16px;
   display: inline-block;
 height: 50px;
-font-family: MohrRoundedAlt-SemiBold;
+font-family: "MohrRounded";
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -1423,7 +1438,7 @@ padding: 2.5%;
   display: inline-block;
   width: 125px;
 height: 52px;
-font-family: MohrRoundedAlt-SemiBold;
+font-family: "MohrRounded";
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -2625,7 +2640,8 @@ ol {
 #younit {
   font-size: 80px;
 text-align: left;
-font-style: "MohrRounded-SemiBold";
+font-family: "MohrRounded";
+font-weight: 600;
 margin-top: 30%;
 margin-left: -6%;
 color: white;
@@ -2669,7 +2685,8 @@ position: relative;
 .slider .quote {
   font-size: 80px;
   text-align: right;
-  font-style: "MohrRounded-SemiBold";
+  font-family: "MohrRounded";
+  font-weight: 600;
   margin-top: 0;
     margin-left: 5%;
   color: black;
@@ -2681,7 +2698,8 @@ position: relative;
 .slider .source {
   font-size: 50px;
   text-align: right;
-  font-style: "MohrRounded";
+  font-family: "MohrRounded";
+  font-weight: 600;
   color: #fff;
   margin-top: 2%;
       margin-left: 5%;
@@ -3518,7 +3536,7 @@ font-weight: 300;
 }
 
 footer p, footer a{
-  font-family: Graphik;
+  font-family: "Graphik";
 font-style: Normal;
 font-weight: Normal;
 font-size: 14px;
@@ -4874,7 +4892,7 @@ a.btn-play-wrapper .btn-play:hover {
 /* 	50. OWL CAROUSEL
 /*-----------------------------------------------------------------------------------*/
 .carouselText{
-  font-family: Graphik;
+  font-family: "Graphik";
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -4897,28 +4915,13 @@ letter-spacing: -0.3px;
 }
 
 
-#mario  {
-    text-align: center;
-    -webkit-tap-highlight-color: transparent;
-    position: absolute;
-    left: 47%;
-    top: 94% !important;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 1rem;
-    line-height: 1;
-
-}
-
 
 .owl-carousel .owl-dots {
     text-align: center;
     -webkit-tap-highlight-color: transparent;
     position: absolute;
     left: 0%;
-    top: 90%;
+    top: 108%%;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -5264,7 +5267,8 @@ padding : 8% */
 
   font-size: 80px;
   text-align: right;
-  font-style: "MohrRounded-SemiBold";
+  font-family: "MohrRounded";
+  font-weight: 600;
   margin-top: 0;
     margin-left: 5%;
   color: black;
