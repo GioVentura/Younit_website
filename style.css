@@ -610,11 +610,11 @@ color: #070707;
 }
 
 #brandAssets {
-  margin-top: 200px;
+  margin-top: 260px;
 }
 
 #brandAssets2 {
-  margin-top: 40%;
+  margin-top: 35%;
 }
 
 
@@ -2788,7 +2788,7 @@ ol {
 text-align: left;
 font-family: "MohrRounded";
 font-weight: 600;
-margin-top: 30%;
+margin-top: 40%;
 margin-left: -6%;
 color: white;
 
@@ -2796,7 +2796,7 @@ color: white;
 
 .content-slider {
   width: 100%;
-height: 620px;
+height: 780px;
 }
 
 .slider {
@@ -5412,6 +5412,17 @@ padding : 8% */
   display: none;
 }
 
+#bg-lilla2{
+  position: absolute;
+  width: 100%;
+  margin-top: -10%;
+  left: 0;
+  background-image: url("style/images/art/bg-lilla2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 897px;
+   background-origin: content-box;
+}
 
 #lineeGuida{
   display: block;
@@ -5419,8 +5430,82 @@ padding : 8% */
 
 }
 
+.background {
+  background-image: url("style/images/illustrazioni/bgIG.png");
+  background-size: 100%;
+}
 
+.scroll-left {
+height: 300px;
+position: center;
+font-size: 80px;
+margin-top: 60%;
+text-align: right;
+font-style: "MohrRounded-SemiBold";
+color: black;
+-webkit-text-fill-color: white;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #7E48E5;
+}
+.scroll-left p {
+position: absolute;
+width: 100%;
+margin: 0;
+margin-top: 10%;
+line-height: 50px;
+text-align: center;
+/* Starting position */
+-moz-transform:translateX(100%);
+-webkit-transform:translateX(100%);
+transform:translateX(100%);
+/* Apply animation to this element */
+-moz-animation: scroll-left 15s linear infinite;
+-webkit-animation: scroll-left 15s linear infinite;
+animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+0%   { -moz-transform: translateX(100%); }
+100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+0%   { -webkit-transform: translateX(100%); }
+100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+0%   {
+-moz-transform: translateX(100%); /* Browser bug fix */
+-webkit-transform: translateX(100%); /* Browser bug fix */
+transform: translateX(100%);
+}
+100% {
+-moz-transform: translateX(-100%); /* Browser bug fix */
+-webkit-transform: translateX(-100%); /* Browser bug fix */
+transform: translateX(-100%);
+}
+}
 
+.content__img {
+	max-width: var(--img-maxwidth);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	will-change: transform;
+	filter: var(--filter-img);
+}
+
+.content__img--full {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+@media screen and (min-width: 53em) {
+  .content {
+		overflow: hidden;
+	}
+}
 
 #txtIG{
 
@@ -5442,7 +5527,8 @@ padding : 8% */
   background-image: url("style/images/illustrazioni/onda.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 150px;
+  height: 240px;
+  margin-top: 10%;
 }
 
 
@@ -5450,9 +5536,9 @@ padding : 8% */
   position: center;
   color: #fff;
   font-family: "MohrRounded";
-  font-size: large;
+  font-size: xx-large;
   text-align: center;
-  margin-top: 9%;
+  margin-top: 14%;
 
 }
 
@@ -5482,7 +5568,7 @@ padding : 8% */
 
 
 #ba1{
-  margin-top: 140%;
+  margin-top: 120%;
 
 }
 
