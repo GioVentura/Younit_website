@@ -1436,15 +1436,15 @@ input.search-box:not(:valid) ~ .close-icon {
 	display: none;
 }
 
-.search-dropdown .dropdown-toggle {
+/* .search-dropdown .dropdown-toggle {
     color: #303030;
-}
+} */
 .search-dropdown .dropdown-menu .dropdown-close {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
-    transition: all 200ms ease-in-out;
+    transition: all 400ms ease-in-out;
     font-size: 1.2rem;
 }
 .search-dropdown .dropdown-menu .dropdown-close:hover {

@@ -88,8 +88,9 @@
 <!--su-->
 
     <div id="#upperSearch" class="container" data-aos="fade-up" data-aos-delay="500">
+
       <div class="space100"></div>
-      <a id="arrivo" name="ancora"></a>
+      <a name="ancora"></a>
       <div class="space100"></div>
       <div class="row">
         <div class="col-lg-7 col-xl-6">
@@ -101,8 +102,16 @@
         <div id="rettangoloSearcHome" class="col-lg-12 col-xl-12">
           <div class="search-wrapper">
             	<form>
-                <div id="searchIcon"><img src="style/images/icons/searchIcon.png"></div>
-            	<input type="text" name="focus" required class="search-box" placeholder="Inserisci il tuo Paese"/>
+                <div  class="dropdown inputdropdown" id="searchIcon"><img src="style/images/icons/searchIcon.png"></div>
+            	<input id="myInput" type="text" data-toggle="dropdown" required class=" searchformss search-box search-dropdown dropdown-toggle" placeholder="Inserisci il tuo Paese"/>
+              <div class="dropdown-menu" id="myList">
+                <a href="comunità.html#ancora_Aus" class="dropdown-item">Australia</a>
+                <a href="comunità.html#ancora_Bel" class="dropdown-item">Belgio</a>
+                <a href="comunità.html#ancora_Can" class="dropdown-item">Canada</a>
+                <a href="comunità.html#ancora_Fr" class="dropdown-item">Francia</a>
+                <a href="comunità.html#ancora_Ger" class="dropdown-item">Germania</a>
+                <a href="comunità.html#ancora_Usa" class="dropdown-item">Stati Uniti</a>
+              </div>
             	</form>
             </div>
         </div>
@@ -433,7 +442,16 @@
 </footer>
 
 
-
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myList a").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
   <script src="style/js/jquery.min.js"></script>
   <script src="style/js/popper.min.js"></script>
   <script src="style/js/bootstrap.min.js"></script>
