@@ -603,6 +603,9 @@ color: #070707;
   margin-top: 200px;
 }
 
+#brandAssets2 {
+  margin-top: 40%;
+}
 
 
 .text-muted {
@@ -2989,9 +2992,9 @@ position: relative;
 
 
 #marchio {
-  margin-left: 90%;
+  margin-left: 120%;
 width: 90%;
-margin-top: 40%;
+margin-top: 60%;
 }
 
 #txt {
@@ -5431,8 +5434,9 @@ padding : 8% */
 #it {
   color: white;
 
-
 }
+
+
 
 
 #my-footer2{
@@ -5453,12 +5457,12 @@ padding : 8% */
 
 
 #ba1{
-  margin-top: 80%;
+  margin-top: 140%;
 
 }
 
 #iconaApp {
-      margin-top: 20%;
+  margin-top: 30%;
 }
 
 #ba2 {
@@ -5468,11 +5472,11 @@ padding : 8% */
 
 #ba3 {
   max-width: 70%;
-  margin-top: -25%;
+
 }
 
 #declinazioni {
-  margin-top: -20%;
+
 }
 
 #my-footer3{
