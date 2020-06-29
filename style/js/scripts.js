@@ -181,6 +181,8 @@ $(document).ready(function() {
 	/*-----------------------------------------------------------------------------------*/
 	/*	OWL CAROUSEL
 	/*-----------------------------------------------------------------------------------*/
+
+
 	$('.basic-slider').each(function() {
 		var $bslider = $(this);
 		$bslider.owlCarousel({
@@ -193,6 +195,10 @@ $(document).ready(function() {
 			autoplay: true,
 			margin: $bslider.data("margin")
 		});
+		$bslider.on('changed.$bslider.carousel', function(e) {
+			 $bslider.trigger('stop.$bslider.autoplay');
+			 $bslider.trigger('play.$bslider.autoplay');
+	 });
 	});
 	$('.carousel').each(function() {
 		var $carousel = $(this);
@@ -207,6 +213,10 @@ $(document).ready(function() {
 			autoplayTimeout: $carousel.data("autoplay-timeout"),
 			responsive: $carousel.data("responsive")
 		});
+		$carousel.on('changed.$carousel.carousel', function(e) {
+			 $carousel.trigger('stop.$carousel.autoplay');
+			 $carousel.trigger('play.$carousel.autoplay');
+	 });
 	});
 	/*-----------------------------------------------------------------------------------*/
 	/*	OWL SLIDER WITH THUMBNAILS

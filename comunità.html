@@ -637,8 +637,10 @@ features: [{
     coordinates: [2.57, 47]
   },
   properties: {
+    id: 'MarkerFrance',
     title: 'Mapbox',
-    description: 'France'
+    description: 'France',
+    link:'index.html'
   }
 },
 {
@@ -690,9 +692,14 @@ geojson.features.forEach(function(marker) {
   var el = document.createElement('div');
   el.className = 'marker';
 
-  // make a marker for each feature and add to the map
+  // var linkFrance = $(".marker:nth-child(2)");
+  // linkFrance.addEvent
+
+  make a marker for each feature and add to the map
   new mapboxgl.Marker(el)
     .setLngLat(marker.geometry.coordinates)
+    .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+    .setHTML('<a href="' + marker.properties.link+ '">' + marker.properties.description + '</a>'))
     .addTo(map);
 });
 
