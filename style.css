@@ -162,6 +162,7 @@ button:focus {
 
 html {
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 @font-face {
     font-family: 'MohrRounded';
@@ -246,6 +247,7 @@ body {
     background: #f9fafb;
     overflow-x: hidden;
     position: relative;
+    scroll-behavior: smooth;
 }
 
 #bodycomunità{
@@ -657,6 +659,35 @@ canvas {
 /*-----------------------------------------------------------------------------------*/
 /*	MAP
 /*-----------------------------------------------------------------------------------*/
+.marker {
+  background-image: url('style/images/art/Map-pin.png');
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.marker.mapboxgl-marker.mapboxgl-marker-anchor-center:nth-child(2){
+  /* display:none; */
+}
+
+.mapboxgl-popup {
+  width: 130px;
+  height: 70px;
+  border-radius: 150px;
+  font-size: 0.9rem;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'MohrRounded';
+  font-weight: 600;
+  color: #FF7F41;
+}
+
+
+
 #staticbox{
   height: 900px;
 }
@@ -994,7 +1025,7 @@ margin-bottom: 0%;
     margin: 0;
     background: #fff;
     border: 0;
-    border-radius: 0px 0px 36px 36px;
+    border-radius: 36px 36px 36px 36px;
     /* transition: all 400ms ease-in-out; */
     margin-left: -5.1%;
     width: 102.6%;
@@ -1030,7 +1061,6 @@ margin-bottom: 0%;
 .dropdown-item:focus,
 .dropdown-item:hover,
 .dropdown-item.highlighted {
-    background: none !important;
     border-top-color: transparent;
 }
 .dropdown-menu,
@@ -1342,6 +1372,16 @@ margin-left: 1.5%;
   /* position:relative; z-index: 10; */
 margin-bottom: 0px;
 padding-bottom: 0px;
+
+}
+.dropdown-item:nth-child(1):hover,
+.dropdown-item:nth-child(1):focus{
+  border-radius: 20px 20px 0 0;
+
+}
+.dropdown-item:nth-child(6):hover,
+.dropdown-item:nth-child(6):focus{
+  border-radius: 0 0 20px 20px 0 0;
 
 }
 
@@ -7792,6 +7832,10 @@ footer.inverse-text address {
       box-shadow: 0px 1px 12px rgba(126, 72, 229, 0.22);
       font-size: 20px;
     }
+
+
+
+
 
     .navbar-nav .nav-link:hover,
     .navbar-nav .nav-link.active,
