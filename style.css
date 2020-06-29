@@ -2863,7 +2863,7 @@ position: relative;
 }
 
 .slider li.anim6 {
-  animation: cycle5 15s linear infinite;
+  animation: cycle6 15s linear infinite;
 }
 
 .slider:hover li {
@@ -2994,7 +2994,7 @@ position: relative;
 #marchio {
   margin-left: 120%;
 width: 90%;
-margin-top: 60%;
+margin-top: 80%;
 }
 
 #txt {
@@ -5413,8 +5413,8 @@ padding : 8% */
 .scroll-left {
 height: 300px;
 position: center;
-font-size: 80px;
-margin-top: 60%;
+font-size: 140px;
+margin-top: 50%;
 text-align: right;
 font-style: "MohrRounded-SemiBold";
 color: black;
@@ -5423,8 +5423,8 @@ color: black;
 -webkit-text-stroke-color: #7E48E5;
 }
 .scroll-left p {
+  width: 100%;
 position: absolute;
-width: 100%;
 margin: 0;
 margin-top: 10%;
 line-height: 50px;
@@ -5517,12 +5517,14 @@ transform: translateX(-100%);
 
 }
 
-#it {
+#younitLink {
   color: white;
 
 }
 
-
+#younitLink:hover {
+  color: #FF7F41;
+}
 
 
 #my-footer2{
@@ -5532,14 +5534,9 @@ transform: translateX(-100%);
 }
 
 
-
-
-
 /*-----------------------------------------------------------------------------------*/
 /*	51. BRAND ASSETS PAGE
 /*-----------------------------------------------------------------------------------*/
-
-
 
 
 #ba1{
