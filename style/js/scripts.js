@@ -199,7 +199,7 @@ $(document).ready(function() {
 		$carousel.owlCarousel({
 			autoHeight: false,
 			nav: false,
-			dots: true,
+			dots: $carousel.data("dots"),
 			dotsEach: true,
 			loop: $carousel.data("loop"),
 			margin: $carousel.data("margin"),

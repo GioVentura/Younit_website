@@ -82,11 +82,20 @@
                   <div id="rettangoloSearchCom">
 
                           <form>
-                            <div id="searchIcon_co"><img src="style/images/icons/searchIcon.png"></div>
-                            <input id="searchInput_co" type="text" name="focus"  class="search-box" placeholder="Cerca un Paese"/>
+                            <div class="dropdown inputdropdown" id="searchIcon_co"><img src="style/images/icons/searchIcon.png"></div>
+                            <input id="searchInput_co" required class=" searchformss search-box search-dropdown dropdown-toggle"  type="text" data-toggle="dropdown" class="search-box" placeholder="Cerca un Paese"/>
+                            <div class="dropdown-menu" id="myList">
+                              <a href="comunità.html#ancora_Aus" class="dropdown-item">Australia</a>
+                              <a href="comunità.html#ancora_Bel" class="dropdown-item">Belgio</a>
+                              <a href="comunità.html#ancora_Can" class="dropdown-item">Canada</a>
+                              <a href="comunità.html#ancora_Fr" class="dropdown-item">Francia</a>
+                              <a href="comunità.html#ancora_Ger" class="dropdown-item">Germania</a>
+                              <a href="comunità.html#ancora_Usa" class="dropdown-item">Stati Uniti</a>
+                            </div>
                           </form>
 
                   </div>
+
                 </div>
               </div>
             </div>
@@ -99,19 +108,19 @@
           <div class="flex-container" style="position:absolute; top: 90%; left:12.5%; z-index: 4; height: 52px; width:75%; border-bottom: 4px solid #7E48E5;">
             <div id="" class="row" style="justify-content:space-between">
                 <div class="d-inline-block" >
-                  <button class="continenti-btn"><a href="#!">Africa</a></button>
+                  <a href="#!" class="continenti-btn">Africa</a>
                 </div>
                 <div class="d-inline-block" >
-                  <button  class="continenti-btn"><a href="#!">America</a></button>
+                <a href="#!" class="continenti-btn">America</a>
                 </div>
                 <div class="d-inline-block" >
-                  <button class="continenti-btn"><a href="#!">Asia</a></button>
+                  <a href="#!" class="continenti-btn">Asia</a>
                 </div>
                 <div class="d-inline-block" >
-                  <button  class="continenti-btn active"><a href="#!">Europa</a></button>
+              <a href="#!" class="continenti-btn">Europa</a>
                 </div>
                 <div class="d-inline-block" >
-                  <button  class="continenti-btn"><a href="#!">Oceania</a></button>
+                  <a href="#!" class="continenti-btn">Oceania</a>
                       <a name="ancora_Aus"></a>
                 </div>
               </div>
@@ -589,7 +598,16 @@
   </footer>
 
 
-
+  <script>
+  $(document).ready(function(){
+    $("#searchInput_co").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $("#myList a").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
+  </script>
   <script src="style/js/jquery.min.js"></script>
   <script src="style/js/popper.min.js"></script>
   <script src="style/js/bootstrap.min.js"></script>

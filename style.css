@@ -300,7 +300,7 @@ a.hover:hover {
     transition: border 150ms ease-in-out;
 }
 a {
-    color: var(--color-default);
+
     -webkit-transition: all 200ms ease-in-out;
     -o-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
@@ -1881,7 +1881,7 @@ padding: 10%;
 .continenti:focus,
 .continenti:active,
 .continenti.active {
-    background: #7E48E5;
+    background: #7E48E5 !important;
     color: #fff;
     margin-top: 1px;
     border-bottom: 4px solid orange;
