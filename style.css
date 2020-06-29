@@ -657,6 +657,17 @@ canvas {
 /*-----------------------------------------------------------------------------------*/
 /*	MAP
 /*-----------------------------------------------------------------------------------*/
+.marker {
+  background-image: url('style/images/art/Map-pin.png');
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+
 #staticbox{
   height: 900px;
 }

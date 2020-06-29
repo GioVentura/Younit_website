@@ -609,9 +609,93 @@
     style: 'mapbox://styles/gioventura/ckap2uib61wc01is6etzk6xg5',
     center: [-2,49],
     zoom: 3.8
-  });
 
-  // code from the next step will go here!
+  });
+  var nav = new mapboxgl.NavigationControl(({
+    showCompass: false
+  }));
+map.addControl(nav, 'top-right');
+
+
+var geojson = {
+type: 'FeatureCollection',
+features: [{
+  type: 'Feature',
+  geometry: {
+    type: 'Point',
+    coordinates: [4.38986, 51.5]
+  },
+  properties: {
+    title: 'Mapbox',
+    description: 'Belgium'
+  }
+},
+{
+  type: 'Feature',
+  geometry: {
+    type: 'Point',
+    coordinates: [2.57, 47]
+  },
+  properties: {
+    title: 'Mapbox',
+    description: 'France'
+  }
+},
+{
+  type: 'Feature',
+  geometry: {
+    type: 'Point',
+    coordinates: [10, 51.1]
+  },
+  properties: {
+    title: 'Mapbox',
+    description: 'Germany'
+  }
+},{
+  type: 'Feature',
+  geometry: {
+    type: 'Point',
+    coordinates: [134, -25]
+  },
+  properties: {
+    title: 'Mapbox',
+    description: 'Australia'
+  }
+},{
+  type: 'Feature',
+  geometry: {
+    type: 'Point',
+    coordinates: [-106, 59]
+  },
+  properties: {
+    title: 'Mapbox',
+    description: 'Canada'
+  }
+},{
+  type: 'Feature',
+  geometry: {
+    type: 'Point',
+    coordinates: [-99, 39]
+  },
+  properties: {
+    title: 'Mapbox',
+    description: 'USA'
+  }
+},]
+};
+// add markers to map
+geojson.features.forEach(function(marker) {
+
+  // create a HTML element for each feature
+  var el = document.createElement('div');
+  el.className = 'marker';
+
+  // make a marker for each feature and add to the map
+  new mapboxgl.Marker(el)
+    .setLngLat(marker.geometry.coordinates)
+    .addTo(map);
+});
+
 
   </script>
   <script>
