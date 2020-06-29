@@ -656,6 +656,20 @@ canvas {
     pointer-events: none;
 }
 
+
+/*-----------------------------------------------------------------------------------*/
+/*	hardvark-tablet
+/*-----------------------------------------------------------------------------------*/
+
+
+@media (max-width: 1024px) {
+
+.btn_nav_tab{
+  margin-right: 20px !important;
+}
+
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	MAP
 /*-----------------------------------------------------------------------------------*/
@@ -668,9 +682,6 @@ canvas {
   cursor: pointer;
 }
 
-.marker.mapboxgl-marker.mapboxgl-marker-anchor-center:nth-child(2){
-  /* display:none; */
-}
 
 .mapboxgl-popup {
   width: 130px;
@@ -1321,6 +1332,13 @@ button.hamburger.animate.active:after {
   color: #BC9BF8;
 }
 
+/* #myList{
+    display: none !important;
+} */
+
+.canc{
+  display: none !important;
+}
 
 .EllipsePaesi{
   margin-right: 10%;
@@ -1381,7 +1399,7 @@ padding-bottom: 0px;
 }
 .dropdown-item:nth-child(6):hover,
 .dropdown-item:nth-child(6):focus{
-  border-radius: 0 0 20px 20px 0 0;
+  border-radius: 0 0 20px 20px;
 
 }
 
@@ -1918,14 +1936,31 @@ padding: 10%;
     /* margin-left: 0.5px; */
 }
 .continenti-btn:hover,
-.continenti:focus,
-.continenti:active,
-.continenti.active {
+.continenti-btn:focus,
+.continenti-btn:active,
+.continenti-btn.active {
     background: #7E48E5 !important;
     color: #fff;
     margin-top: 1px;
     border-bottom: 4px solid orange;
 }
+
+
+
+.bottone_viola{
+  background: #7E48E5;
+  color: #fff;
+  margin-top: 1px;
+  border-bottom: 4px solid orange;
+}
+
+.bottone_viola:hover,
+.bottone_viola:focus,
+.bottone_viola:active,
+.bottone_viola.active {
+background: #986FE7 !important;
+}
+
 
 #younisciti-btn:hover,
 #younisciti-btn:focus,
