@@ -123,8 +123,13 @@ button:focus {
 
 #bgtotal{
   background-image: url("style/images/art/copertinaBandierine.png");
-  background-size: 100%;
+  background-size: 103%;
   background-repeat: no-repeat;
+  background-position: -0px -30px;
+}
+
+#bgtotal h1{
+
 }
 
 #bgtotal2{
@@ -531,12 +536,13 @@ left: 17%;
 }
 
 .p_titolo {
-  font-size: 1.2rem;
+  font-size: 1.2rem !important;
   line-height: 1.7rem;
   color: #ffffff;
   font-family: "Graphik";
   font-weight: 500;
 }
+
 .p_titolo_co {
 font-family: "Graphik";
 font-style: normal;
@@ -574,6 +580,10 @@ color: #070707;
   background-repeat: no-repeat;
   height: 897px;
    background-origin: content-box;
+}
+
+.video_carousel{
+  width: 104%; margin-left: -5%; margin-top: -5%;
 }
 
 
@@ -664,8 +674,59 @@ canvas {
 
 @media (max-width: 1024px) {
 
+#bgtotal{
+  background-size: 120%;
+  background-position: center top;
+}
+
+#bgtotal h1{
+  font-size: 3.5rem !important;
+}
+
+
+.p_titolo{
+  font-size: 1.01rem !important;
+}
+
 .btn_nav_tab{
   margin-right: 20px !important;
+}
+.tab_none{
+  display:none;
+}
+
+.tab_center{
+  text-align: center;
+}
+
+.display-2{
+  font-size: 1.8rem;
+}
+.display-3{
+  font-size: 1.5rem;
+}
+#bg-lilla{
+  top: 28%;
+  height: 680px;
+  background-size: 100% 680px;
+  width: 100%;
+}
+
+.owl-carousel .owl-dots{
+  margin-top: -10px !important;
+}
+
+.video_carousel{
+  width: 100%
+}
+
+.OrangeRect{
+  display: none !important;
+}
+
+.pl-60{
+  padding-left: 1.53rem !important;
+  width: 100%;
 }
 
 }
@@ -1139,8 +1200,13 @@ acronym[title] {
     transform: translateY(0%);
     background: rgba(var(--rgb-white), 0.95);
 }
-#item-selected{
+.banner--stick #item-selected{
     color: #7E48E5 !important;
+    margin-top: 6.6%;
+}
+
+.banner--stick .w-130{
+  padding: 11% !important;
 }
 
 .banner--stick li a{

@@ -192,7 +192,7 @@ $(document).ready(function() {
 			dotsEach: true,
 			autoHeight: true,
 			loop: true,
-			autoplay: true,
+			autoplay: $bslider.data("autoplay"),
 			margin: $bslider.data("margin")
 		});
 		$bslider.on('changed.$bslider.carousel', function(e) {
@@ -213,10 +213,7 @@ $(document).ready(function() {
 			autoplayTimeout: $carousel.data("autoplay-timeout"),
 			responsive: $carousel.data("responsive")
 		});
-		$carousel.on('changed.$carousel.carousel', function(e) {
-			 $carousel.trigger('stop.$carousel.autoplay');
-			 $carousel.trigger('play.$carousel.autoplay');
-	 });
+
 	});
 	/*-----------------------------------------------------------------------------------*/
 	/*	OWL SLIDER WITH THUMBNAILS
