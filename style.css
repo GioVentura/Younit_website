@@ -794,6 +794,10 @@ top: 67.2% !important;
   margin-top: 25% !important;
 }
 
+.imgBox{
+  width: 450px !important;
+    height: 500px !important;
+}
 /*-----------------------------------------------------------------------------------*/
 /*	hardvark-laptop-Brand Assets
 /*-----------------------------------------------------------------------------------*/
@@ -1029,6 +1033,34 @@ width: 760px !important;
 
 .my-telephone2 {
   height: 400px;
+}
+
+#brandBrand {
+    width: 80% !important;
+    margin-left: 10% !important;
+    margin-top: 19% !important;
+}
+
+#brandAssets3 {
+    margin-top: 14% !important;
+    padding-right: 8% !important;
+}
+
+.scroll-left p {
+  font-size: 90px;
+}
+
+.imgBox {
+  width: 260px !important;
+    height: 300px !important;
+}
+
+#onda {
+  height: 160px !important;
+}
+
+#seguici {
+  margin-top: 10% !important;
 }
 
 }
@@ -6295,7 +6327,7 @@ transform: translateX(-100%);
 
 .imgBox {
   position: absolute;
-  width: 300px;
+  width: 350px;
   height: 400px;
   transform: translate(-50%, -50%);
   pointer-events: none;
