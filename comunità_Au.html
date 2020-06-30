@@ -43,12 +43,12 @@
           <div class="container flex-row justify-content-center">
             <div id="logodiv" class="navbar-brand"><a href="index.html"><img src="#" srcset="style/images/logo.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/logo.png" class="logo-light" alt="" /></a></div>
             <div class="ml-auto order-lg-3">
-              <ul class="navbar-nav flex-row align-items-center" data-sm-skip="true">
+              <ul class="navbar-nav flex-row align-items-center btn_nav_tab_co" data-sm-skip="true">
                 <li class="nav-item">
                   <div class="navbar-hamburger d-lg-none d-xl-none ml-auto"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
                 </li>
-                <li class="nav-item d-none d-lg-block pl-0"><a href="#" class="scarica-btn w-130 btn-default m-0">Android</a></li>
-                <li class="nav-item d-none d-lg-block pl-0"><a href="#" class="scarica-btn w-130 btn-default m-0">iOS</a></li>
+                <li class="nav-item d-none d-lg-block pl-0"><a href="https://play.google.com/store/apps?hl=it" class="scarica-btn w-130 btn-default m-0">Android</a></li>
+                <li class="nav-item d-none d-lg-block pl-0"><a href="https://www.apple.com/it/ios/app-store/" class="scarica-btn w-130 btn-default m-0">iOS</a></li>
               </ul>
               <!-- /.navbar-nav -->
             </div>
@@ -84,7 +84,7 @@
           <div id="titolo_main_com" class="container">
             <div class="row">
               <div class="col-lg-12 col-xl-12">
-                <h1 class="display-1bis" data="fade-up" data-delay="400">Seleziona il tuo<br>posto nel mondo!</h1>
+                <h1 class="display-1bis" data="fade-up" data-delay="400">Seleziona il tuo <br class="tab_none">posto nel mondo!</h1>
                 <div class="space10"></div>
                 <p class="p_titolo_co lead larger">Scopri sulla mappa le<br>comunità già attive su <span class="spantitolo-co"> Younit: </span> </p>
                 <div class="space10"></div>
@@ -147,11 +147,11 @@
               <h2 id="nomePaese" class="display-2">Australia</h3>
               <img class="OrangeRect2" src="style/images/icons/Rectangle192.png">
           </div>
-          <div class="sottobox-1" style="width:29%;">
+          <div id="sottobox-1-2" class="sottobox-1">
                 <p class="p_1" id="y-attivi">Youniters attivi:</p>
                 <p class="p_2" id="n-attivi">32103</p>
           </div>
-          <div class="sottobox-1" style="width:29%;">
+          <div id="sottobox-1-3" class="sottobox-1">
             <p class="p_1" >Comunità:</p>
             <p class="p_2" id="city-1">Perth</p>
             <p class="p_2" id="city-2">Canberra</p>
@@ -159,7 +159,8 @@
           </div>
         </div>
 
-        <div class="space75"></div>
+        <div class="space50"></div>
+        <div class="space25"></div>
 
 
         <div id="box-2">
@@ -298,6 +299,7 @@
 
     <!-- <div class="space25"></div> -->
           <div class="space75"></div>
+
     <div id="box-3">
 
             <h3 class="display-2">Youniters</h3>
@@ -516,7 +518,7 @@
                 <p style=" width: 80%;margin-left: 10%;" class="carouselText center">Connettiti con la tua comunità anche dall’altra parte del mondo</p>
 
                 <div id="storeButtons">
-                    <a href="#" class="scarica-btn"> Android</a>  <a href="#" class="scarica-btn"> iOS</a>
+                    <a href="#" class="scarica-btn"> Android</a>  <a href="https://www.apple.com/it/ios/app-store/" class="scarica-btn"> iOS</a>
                 </div>
 
               </div>
@@ -576,8 +578,8 @@
           <div class="widget">
             <h4 class="display-4">Download App</h4>
             <ul class="list-unstyled mb-0">
-              <li><a href="#">Scarica per Android</a></li>
-              <li><a href="#">Scarica per iOS</a></li>
+              <li><a href="https://play.google.com/store/apps?hl=it">Scarica per Android</a></li>
+              <li><a href="https://www.apple.com/it/ios/app-store/">Scarica per iOS</a></li>
             </ul>
           </div>
           <!-- /.widget -->
@@ -615,7 +617,7 @@
     container: 'map-container',
     style: 'mapbox://styles/gioventura/ckap2uib61wc01is6etzk6xg5',
     center: [116, -25],
-    zoom: 3.2
+    zoom: 3.1
 
   });
   var nav = new mapboxgl.NavigationControl(({
