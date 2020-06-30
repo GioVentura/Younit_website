@@ -682,6 +682,11 @@ canvas {
 /*	hardvark-laptop
 /*-----------------------------------------------------------------------------------*/
 @media (min-width: 1601px) {
+
+  .lap_none{
+    display:none;
+  }
+
   #bgtotal{
     background-size: 100%;
     background-position: 0px -60px;
@@ -813,7 +818,7 @@ height: 715px;
 }
 
 #bg-lilla2 {
-  background-position: 0px -160px;
+height: 898px !important;
 }
 
 .scroll-left p {
@@ -821,13 +826,18 @@ height: 715px;
 }
 
 #brandBrand {
-  margin-top: 25% !important;
+  margin-top: 60% !important;
 }
 
 .imgBox{
   width: 450px !important;
     height: 500px !important;
 }
+
+#brandAssets3 {
+    margin-top: 25%;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	hardvark-laptop-Brand Assets
 /*-----------------------------------------------------------------------------------*/
@@ -5891,7 +5901,7 @@ top: 0px;
 
 .mask {
   overflow: hidden;
-height: 720px;
+height: 420px;
 margin-left: 10%;
 width: 1200px;
 }
