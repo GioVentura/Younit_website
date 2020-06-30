@@ -25,25 +25,26 @@
   </style>
 </head>
 <body>
-  <div class="content-fluid">
+  <div class="content-fluid" id="bg1">
   <div class="content-wrapper">
     <nav class="navbar absolute transparent navbar-expand-lg nav-uppercase">
       <div class="container flex-row justify-content-center">
-        <div id="logodiv" class="navbar-brand"><a href="index.html"><img src="#" srcset="style/images/logo.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/logo-light.png" class="logo-light" alt="" /></a></div>
-        <div class="ml-auto order-lg-3">
-          <ul class="navbar-nav flex-row align-items-center" data-sm-skip="true">
+        <div id="logodiv" class="mob_none navbar-brand"><a href="index.html"><img src="#" srcset="style/images/logo.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/logo-light.png" class="logo-light" alt="" /></a></div>
+        <div id="logodiv" class="mob_just navbar-brand"><a href="index.html"><img src="#" srcset="style/images/art/mobile-logo-viola.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/art/mobile-logo-bianco.png" class="logo-light" alt="" /></a></div>
+        <div class=" ml-auto order-lg-3">
+          <ul class="navbar-nav flex-row align-items-center btn_nav_tab" data-sm-skip="true">
             <li class="nav-item">
               <div class="navbar-hamburger d-lg-none d-xl-none ml-auto"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
             </li>
-            <li class="nav-item d-none d-lg-block pl-0"><a href="#" class="scarica-btn w-130 btn-default m-0">Android</a></li>
-            <li class="nav-item d-none d-lg-block pl-0"><a href="#" class="scarica-btn w-130 btn-default m-0">iOS</a></li>
+            <li class="nav-item d-none d-lg-block pl-0"><a href="https://play.google.com/store/apps?hl=it" class="scarica-btn w-130 btn-default m-0" target="_blank">Android</a></li>
+            <li class="nav-item d-none d-lg-block pl-0"><a href="https://www.apple.com/it/ios/app-store/" class="scarica-btn w-130 btn-default m-0" target="_blank">iOS</a></li>
           </ul>
           <!-- /.navbar-nav -->
         </div>
         <!-- /.navbar-other -->
         <div class="navbar-collapse offcanvas-nav">
           <div class="offcanvas-header d-lg-none d-xl-none">
-            <a href="index.html"><img src="#" srcset="style/images/logo-light.png 1x, style/images/logo-light@2x.png 2x" alt="" /></a>
+            <a href="index.html"><img src="#" srcset="style/images/art/mobile-logo-bianco.png" alt="" /></a>
             <button class="plain offcanvas-close offcanvas-nav-close"><i class="jam jam-close"></i></button>
           </div>
 
@@ -52,7 +53,7 @@
             </li>
             <li class="nav-item"><a class="nav-link" href="comunità_Au.html">Comunità</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="chiSiamo.html">Chi Siamo</a>
+            <li class="nav-item"><a id="item-selected" class="nav-link" href="chiSiamo.html">Chi Siamo</a>
             </li>
           </ul>
           <!-- /.navbar-nav -->
@@ -61,13 +62,13 @@
       </div>
       <!-- /.container -->
     </nav>
-    </div>
-    </div>
+
     <!-- /.navbar -->
-<div class="content-fluid" id="bg1">
-    <div class="content-slider">
-      <div class="space50"></div>
-              <div class="col-xl">
+<div class="content-fluid">
+  <div class="space50"></div>
+  <div class="space50"></div>
+  <div class="col-xl">
+   <div class="content-slider">
       <div class="slider">
 
         <div class="mask">
@@ -92,16 +93,18 @@
             </li>
             <li class="anim5">
               <div class="quote">creare legami</div>
-              <div class="source">con chi ha i tuoi stessi interessi</div>
+              <div class="source">attraverso gli interessi in comune</div>
             </li>
           </ul>
         </div>
-      </div>
+
     </div>
     </div>
-    </div>
+  </div>
 
 
+  </div>
+  </div>
   <!--  <div class="content-slider" id="bg1">
             <div class="space50"></div>
             <div class="col-xl">
@@ -130,7 +133,8 @@
 
 
                 <!-- / Brand Assets -->
-
+                <div class="space100"></div>
+                <div class="space100"></div>
 <div class="container" data-aos="fade-up" data-aos-delay="500">
       <div class="row">
           <div id="colonna4" class="col-md-2 col-lg-2 d-none d-md-flex">
@@ -170,6 +174,7 @@
           </div>
       </div>
 </div>
+<div class="space50"></div>
   <div class="container-fluid" id="bg-lilla2" data-aos="fade-up" data-aos-delay="500">
   <div class="container pb-0">
   <div class="row align-items-center">
@@ -250,8 +255,6 @@
 
 
  <!-- / FOOTER -->
-<div class="space50"></div>
-<div class="space50"></div>
   <footer class="gradient-wrapper" id="my-footer3">
     <div class="container inner">
       <div class="row">
