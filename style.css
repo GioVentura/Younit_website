@@ -706,10 +706,28 @@ canvas {
   font-size: 1.5rem;
 }
 #bg-lilla{
-  top: 28%;
+  top: 31.4%;
   height: 680px;
   background-size: 100% 680px;
   width: 100%;
+}
+#bg-lillino{
+  background-size: 106% 870px;
+  width: 100%;
+}
+#gradiente{
+  top: 64.6% !important;
+  height: 700px !important;
+}
+
+#bg-viola{
+background-size: 100% 270px;
+height: 270px !important;
+}
+
+
+#ScaricaLApp{
+  height: 500px !important;
 }
 
 .owl-carousel .owl-dots{
@@ -727,6 +745,15 @@ canvas {
 .pl-60{
   padding-left: 1.53rem !important;
   width: 100%;
+}
+
+.scarica-btn{
+  font-size: 14px !important;
+  padding-top: 3% !important;
+}
+
+.w-170{
+  width: 140px !important;
 }
 
 }
