@@ -981,9 +981,15 @@ height: 270px !important;
     margin-top: -22%;
 }
 
+/*-----------------------------------------------------------------------------------*/
+/*	hardvark-tablet-Chi Siamo
+/*-----------------------------------------------------------------------------------*/
+
 .mask {
-  width: 760px !important;
+  width: 766px !important;
   margin-left: 0 !important;
+  overflow: hidden;
+  height: 220px !important;
 }
 
 .slider {
@@ -991,20 +997,20 @@ width: 760px !important;
 }
 
 .static {
-    font-size: 50px !important;
+    font-size: 58px !important;
     margin-top: 16% !important;
-    margin-left: 12% !important;
+    margin-left: 8% !important;
 }
 
 .slider .quote {
     width: 500px !important;
-    font-size: 50px !important;
+    font-size: 58px !important;
     margin-left: 46% !important;
 }
 
 .slider .source {
-    width: 400px !important;
-    font-size: 20px !important;
+    width: 450px !important;
+    font-size: 25px !important;
     margin-top: 3% !important;
     margin-left: 46% !important;
 }
