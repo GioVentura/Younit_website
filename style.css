@@ -850,7 +850,7 @@ top: 67.2% !important;
   font-size: 1.5rem;
 }
 #bg-lilla{
-  top: 31.4%;
+  top: 30.8%;
   height: 680px;
   background-size: 100% 680px;
   width: 100%;
@@ -1047,16 +1047,16 @@ height: 270px !important;
     border-radius: 36px !important;
   }
   .video_carousel{
-    width: 100%;
+    width: 106%;
   }
   .tit_car_mob{
     margin-top: -30px;
   }
 
   #bg-lilla{
-    top: 22%;
-    background-size: 377%;
-    height: 755px;
+    top: 23%;
+    background-size: 348%;
+    height: 685px;
   }
 
  .owl-dots{
@@ -1074,10 +1074,10 @@ height: 270px !important;
       padding-top: 11px !important;
     }
     #bg-lillino{
-        background-size: 170% 1320px;
+        background-size: 180% 1140px;
         top: 15%;
         width: 100%;
-        height: 1320px;
+        height: 1140px;
       }
 
       .carouselText{
@@ -1089,7 +1089,7 @@ height: 270px !important;
       flex-direction: row !important;
       height: 80px !important;
       position: relative;
-      top: 475px;
+      top: 463px;
     }
 
     #colonna2{
@@ -1098,7 +1098,7 @@ height: 270px !important;
       top: -86px;
     }
     #colonna3{
-      padding: 40px 25px 0px 25px!important;
+      padding: 14px 25px 0px 25px!important;
     }
 
     #colonna1 ul{
@@ -1136,7 +1136,7 @@ height: 270px !important;
       margin-top: 25px;
     }
     #gradiente{
-      top: 57.2% !important;
+      top: 55.2% !important;
       height: 700px !important;
     }
     #storeButtons{
@@ -2444,7 +2444,7 @@ padding: 10%;
 .scarica-btn:active,
 .scarica-btn.active {
     background: #7E48E5;
-    color: #fff;
+    color: #fff !important;
     margin-top: 1px;
     /* margin-left: 0.5px; */
 }
