@@ -930,6 +930,20 @@ height: 270px !important;
     margin-left: 10px !important;
   }
 
+  #logodiv{
+    width: 95%;
+    margin-top: -38px;
+  }
+
+  .navbar{
+    height: 80px;
+  }
+  .navbar-collapse{
+    border:none ;
+  }
+
+
+
 }
 
 
