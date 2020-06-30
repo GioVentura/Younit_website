@@ -585,6 +585,7 @@ color: #070707;
   background-repeat: no-repeat;
   height: 897px;
    background-origin: content-box;
+   z-index: 1;
 }
 
 .video_carousel{
@@ -626,8 +627,8 @@ color: #070707;
   height: 300px;
 }
 
-#brandAssets {
-  margin-top: 260px;
+#brandAssets3 {
+  margin-top: 240px;
 }
 
 #brandAssets2 {
@@ -781,6 +782,18 @@ top: 67.2% !important;
   background-position: 0px -160px;
 }
 
+#bg-lilla2 {
+  background-position: 0px -160px;
+}
+
+.scroll-left p {
+  margin-top: 4% !important;
+}
+
+#brandBrand {
+  margin-top: 25% !important;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	hardvark-laptop-Brand Assets
 /*-----------------------------------------------------------------------------------*/
@@ -914,7 +927,7 @@ height: 270px !important;
 }
 
   #brandAssets {
-    margin-top: 170px !important;
+    margin-top: 100px !important;
 }
 
 #marchio {
@@ -964,9 +977,61 @@ height: 270px !important;
     margin-top: -22%;
 }
 
+.mask {
+  width: 760px !important;
+  margin-left: 0 !important;
 }
 
+.slider {
+width: 760px !important;
+}
 
+.static {
+    font-size: 50px !important;
+    margin-top: 16% !important;
+    margin-left: 12% !important;
+}
+
+.slider .quote {
+    width: 500px !important;
+    font-size: 50px !important;
+    margin-left: 46% !important;
+}
+
+.slider .source {
+    width: 400px !important;
+    font-size: 20px !important;
+    margin-top: 3% !important;
+    margin-left: 46% !important;
+}
+
+#colonna4 {
+  height: 500px !important;
+}
+
+#colonna4 ul {
+    margin-top: 0 !important;
+}
+
+#condivisione {
+  margin-top: 20% !important;
+}
+
+#colonna3 {
+  height: 300px !important;
+    margin-top: -8% !important;
+}
+
+#colonna2 {
+      margin-top: -8% !important;
+      height: 0 !important;
+}
+
+.my-telephone2 {
+  height: 400px;
+}
+
+}
 /*-----------------------------------------------------------------------------------*/
 /*	hardvark-mobile
 /*-----------------------------------------------------------------------------------*/
@@ -6088,16 +6153,19 @@ padding : 8% */
 
 #bg-lilla2{
   position: absolute;
-  width: 100%;
-  margin-top: -10%;
   left: 0;
   background-image: url("style/images/art/bg-lilla2.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 897px;
+  height: 760px;
    background-origin: content-box;
    padding-left: 0;
     padding-right: 0;
+}
+
+#brandBrand {
+  width: 100%;
+  margin-top: 45%;
 }
 
 #lineeGuida{
