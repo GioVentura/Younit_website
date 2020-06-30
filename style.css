@@ -504,6 +504,10 @@ h6.text-uppercase,
   color: #F73757 !important;
 }
 
+#illo{
+  width: 68%;
+  margin-left: 14%;
+}
 
 .display-3 {
     font-size: 1.8rem;
@@ -568,7 +572,6 @@ color: #070707;
   color: #7E48E5;
   font-family: "MohrRounded";
   font-weight: bold;
-  text-shadow: 0px 0px 9px rgba(91, 50, 170, 0.6);
 }
 
 #bg-lilla{
@@ -872,6 +875,74 @@ height: 270px !important;
   width: 140px !important;
 }
 
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	hardvark-mobile
+/*-----------------------------------------------------------------------------------*/
+@media (max-width: 360px) {
+  .mob_none{
+    display: none;
+  }
+
+  #bgtotal{
+    background-size: 102%;
+    background-position: center -7px;
+    background-image: url("style/images/art/backindex_mobile.png");
+  }
+
+  #bgtotal h1{
+    font-size: 0.9rem !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 2.3rem !important;
+
+  }
+
+  .p_titolo{
+    text-align: center;
+    font-size: 0.9rem !important;
+    padding: 0 5% !important;
+
+  }
+
+  .spantitolo{
+    font-size: 0.9rem  !important;
+  }
+
+  .younit_mob{
+    color: #ffba09;
+    text-transform: lowercase;
+    font-size: 4rem;
+  }
+
+  #younisciti-btn{
+    position: absolute;
+    top: 0px;
+    left: 78px;
+    padding: 19px !important;
+
+  }
+  #illo{
+    width: 85% !important;
+    margin-left: 10px !important;
+  }
+
+}
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	hardvark-JUST-mobile
+/*-----------------------------------------------------------------------------------*/
+@media (min-width: 361px) {
+  .mob_just{
+    display: none;
+  }
 }
 
 /*-----------------------------------------------------------------------------------*/

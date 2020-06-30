@@ -37,8 +37,9 @@
   <div class="content-wrapper">
     <nav class="navbar absolute transparent navbar-expand-lg nav-uppercase">
       <div class="container flex-row justify-content-center">
-        <div id="logodiv" class="navbar-brand"><a href="index.html"><img src="#" srcset="style/images/logo.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/logo-light.png" class="logo-light" alt="" /></a></div>
-        <div class="ml-auto order-lg-3">
+        <div id="logodiv" class="mob_none navbar-brand"><a href="index.html"><img src="#" srcset="style/images/logo.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/logo-light.png" class="logo-light" alt="" /></a></div>
+        <div id="logodiv" class="mob_just navbar-brand"><a href="index.html"><img src="#" srcset="style/images/art/art/mobile-logo-viola.png" class="logo-dark" alt="" /><img src="#" srcset="style/images/art/mobile-logo-bianco.png" class="logo-light" alt="" /></a></div>
+        <div class="navbar-other ml-auto order-lg-3">
           <ul class="navbar-nav flex-row align-items-center btn_nav_tab" data-sm-skip="true">
             <li class="nav-item">
               <div class="navbar-hamburger d-lg-none d-xl-none ml-auto"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
@@ -71,19 +72,22 @@
     </nav>
     <!-- /.navbar -->
     <div class="container inner pb-100">
-      <div class="space50 dkt_none"></div>
+      <div class="space50 dkt_none "></div>
       <div class="space20 dkt_none"></div>
-      <div class="space100"></div>
+      <div class="space50"></div>
+      <div class="space50"></div>
       <div class="space50 tab_none"></div>
-      <div class="space10 "></div>
+      <div class="space10"></div>
       <div class="row">
         <div class="col-lg-7 col-xl-7">
-          <h1 class="display-1" data-aos="fade-up" data-aos-delay="400">Il mondo<br>
-    di Younit</h1>
+          <h1 class="display-1" data-aos="fade-up" data-aos-delay="400">Il mondo<br class="mob_none">
+    di <br class="mob_just"><span class="mob_just younit_mob">Younit</span></h1>
           <div class="space10 tab_none"></div>
           <div class="space10 dkt_none"></div>
-          <p class="lead larger p_titolo" data-aos="fade-up" data-aos-delay="700">L’unica app dedicata agli <span class="spantitolo"> Italiani all’estero </span> per creare legami con altri connazionali nella stessa area geografica.
-          <div class="space25"></div>
+          <div class="space25 mob_just"></div>
+          <p class="lead larger p_titolo" data-aos="fade-up" data-aos-delay="700">L’unica app dedicata agli<span class="spantitolo"> Italiani all’estero </span>per creare legami con altri connazionali nella stessa area geografica.
+          <div class="space25 mob_none"></div>
+          <div class="space20 mob_just"></div>
           <div class="space10 dkt_none"></div>
           <div class="d-inline-block" data-aos="fade-up" data-aos-delay="1000">
             <a href="#ancora" id="younisciti-btn" class="btn btn-l btn-white btn-strong-hover btn-icon btn-icon-left mr-10"> Younisciti</a>
@@ -134,7 +138,7 @@
 
 <!--giu-->
 
-      <div class="row">
+      <div class="mob_none row">
         <div id="lowerSearchRect" class="col-lg-12 col-xl-12">
           <ul id="listaPaese-Search">
             <li id="Paese-1"><div class="EllipsePaesi"><img src="style/images/icons/EllipsePaesiSearch.png"></div><div class="LinkPaesi"><a href="#">Australia</a></div></li>
@@ -149,7 +153,7 @@
 
       <div class="row" data-aos="fade-up">
         <div class="col-lg-12 col-xl-12">
-          <img src="style/images/illustrazioni/illo_barra_di_ricerca.png" style="width: 68%; margin-left: 14%;">
+          <img id="illo" src="style/images/illustrazioni/illo_barra_di_ricerca.png">
         </div>
         <!--/column -->
       </div>
