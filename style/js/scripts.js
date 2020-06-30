@@ -1076,6 +1076,7 @@ $(document).ready(function() {
 
 
 function appearHome() {
+	console.log("hai cliccato home");
 
  // --- Schermate iphone ---
 
@@ -1116,6 +1117,7 @@ testoAttivita.style.display = 'none';
 
 
 function appearInfo() {
+	console.log("hai cliccato info");
 
  // --- Schermate iphone ---
 
@@ -1156,6 +1158,8 @@ var testoAttivita = document.querySelector('#TestoAttivita');
 
 
 function appearAttivita() {
+
+console.log("hai cliccato attività");
 
  // --- Schermate iphone ---
 
