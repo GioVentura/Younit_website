@@ -146,15 +146,15 @@ button:focus {
 
 
 
-#bgOrange2{
+#bgOrange3{
   position:relative;
   z-index: 11;
-  margin-top: -2%;
-  background-image: url("style/images/illustrazioni/bgOrange2.png");
+  margin-top: 3%;
+  background-image: url("style/images/illustrazioni/bgOrange3.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: rgba(255, 0, 0, 0.0);
-  height: 1000px;
+  height: 800px;
 }
 
 
@@ -773,6 +773,31 @@ top: 67.2% !important;
 
 
 
+
+#bgtotal2 {
+  background-size: 100%;
+  background-position: 0px -160px;
+}
+
+#bgOrange3 {
+  background-size: 100%;
+    background-position: 0px 50px;
+    height: 900px;
+}
+
+#ba2 {
+  margin-top: 45% !important;
+      margin-left: 35% !important;
+}
+
+#iconaApp {
+  margin-top: 30% !important;
+}
+
+#ba3 {
+
+}
+
 }
 
 
@@ -873,6 +898,62 @@ height: 270px !important;
 
 .w-170{
   width: 140px !important;
+}
+
+#bgtotal2 {
+  background-size: 120%;
+  background-position: center top;
+}
+
+  #brandAssets {
+    margin-top: 170px !important;
+}
+
+#marchio {
+  margin-left: 100% !important;
+  margin-top: 60% !important;
+}
+
+
+#bgOrange3 {
+  background-size: 140%;
+  background-position: center top;
+}
+
+.display-1 {
+  font-size: 3.5rem;
+}
+
+#ba1 {
+    margin-top: 70% !important;
+    width: 90%;
+    margin-left: 10%;
+}
+
+#brandAssets2 {
+    margin-top: 25%;
+    right: 4%;
+}
+
+#iconaApp {
+  left: 4%;
+}
+
+#ba2 {
+    margin-left: 30% !important;
+    width: 60% !important;
+    margin-top: 35% !important;
+}
+
+#ba3 {
+    max-width: 70%;
+    margin-top: -14%;
+    margin-left: 10%;
+}
+
+#declinazioni {
+    right: 4%;
+    margin-top: -22%;
 }
 
 }
@@ -6101,7 +6182,7 @@ transform: translateX(-100%);
 }
 
 #iconaApp {
-  margin-top: 30%;
+  margin-top: 20%;
 }
 
 #ba2 {
