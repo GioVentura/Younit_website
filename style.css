@@ -547,7 +547,7 @@ left: 17%;
 font-family: "Graphik";
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 20px !important;
 line-height: 155%;
 letter-spacing: -0.3px;
 color: #070707;
@@ -560,6 +560,7 @@ color: #070707;
   color: #ffba09;
   font-family: "MohrRounded";
   font-weight: bold;
+  text-shadow: 0px 0px 9px rgba(91, 50, 170, 0.6);
 }
 .spantitolo-co{
   font-size: 1.2rem;
@@ -567,6 +568,7 @@ color: #070707;
   color: #7E48E5;
   font-family: "MohrRounded";
   font-weight: bold;
+  text-shadow: 0px 0px 9px rgba(91, 50, 170, 0.6);
 }
 
 #bg-lilla{
@@ -671,10 +673,97 @@ canvas {
 /*-----------------------------------------------------------------------------------*/
 @media (min-width: 1601px) {
   #bgtotal{
-    background-size: 103%;
-    background-position: -20px -50px;
+    background-size: 100%;
+    background-position: 0px -60px;
   }
 
+  .nav-uppercase .navbar-nav .nav-link {
+      font-size: 0.8rem !important;
+  }
+
+  .scarica-btn{
+    font-size: 16px !important;
+
+  }
+  .scarica-btn.w-130{
+    padding: 10.5% !important;
+  }
+  .scarica-btn.w-170{
+    padding: 3.1% !important;
+  }
+
+
+
+  /* .w-170{
+    width: 170px !important;
+  } */
+  .w-130{
+    width: 145px !important;
+    height: 48px !important;
+  }
+
+  #bgtotal h1{
+    font-size: 4.8rem !important;
+    line-height: 4.5rem !important
+  }
+
+  .p_titolo{
+  font-size: 1.4rem !important;
+  }
+
+  .spantitolo {
+    font-size: 1.4rem;
+  }
+
+  .EllipsePaesi{
+    padding: 2% 0 0 0 !important;
+  }
+
+  .EllipsePaesi img{
+    width: 14px !important;
+  }
+
+  .LinkPaesi{
+    padding: 2% 0 0 0 !important;
+    font-size: 1.2rem !important;
+  }
+
+  #bg-lilla{
+    top: 33.7%;
+    height: 910px;
+    background-size: 100% 910px;
+    width: 100%;
+  }
+
+  .video_carousel{
+    width: 104%
+  }
+  .display-3{
+    font-size: 2rem;
+  }
+
+  .carouselText{
+  font-size: 24px !important;
+  line-height: 160% !important;
+  }
+
+  #bg-lillino{
+    background-size: 106% 1010px;
+    height: 1010px;
+    width: 100%;
+  }
+  #storeButtons .scarica-btn.w-170{
+    padding-top: 3% !important;
+  }
+
+
+  #gradiente{
+height: 900px;
+width: 100%;
+left: 0px;
+position:absolute;
+z-index: 8;
+top: 67.2% !important;
 }
 
 /*-----------------------------------------------------------------------------------*/
