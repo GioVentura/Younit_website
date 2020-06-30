@@ -932,18 +932,57 @@ height: 270px !important;
 
   #logodiv{
     width: 95%;
-    margin-top: -38px;
+    margin-top: -48px;
   }
 
   .navbar{
-    height: 80px;
+    height: 93px;
   }
   .navbar-collapse{
     border:none ;
   }
 
+  .nav-item{
+    margin-left: 30px !important;
+  }
 
+  input.search-box {
+  	width: 91% !important;
+  }
+  #searchIcon{
+    width: 9% !important;
+    padding-top: 9px !important;
+  }
+  #rettangoloSearcHome{
+    border-radius: 36px !important;
+  }
+  .video_carousel{
+    width: 100%;
+  }
+  .tit_car_mob{
+    margin-top: -30px;
+  }
 
+  #bg-lilla{
+    top: 27%;
+    background-size: 377%;
+    height: 755px;
+  }
+
+ .owl-dots{
+    display: none !important;
+  }
+
+  .mob_center{
+    text-align: center;
+  }
+  .tit2_mob{
+    font-size: 1.7rem !important;
+  }
+    .scarica-btn.w-170{
+      margin-left: 68px;
+      padding-top: 11px !important;
+    }
 }
 
 
