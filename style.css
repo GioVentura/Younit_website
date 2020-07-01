@@ -1568,6 +1568,23 @@ background-color: #fff;
 /*	hardvark-mobile-Chi Siamo
 /*-----------------------------------------------------------------------------------*/
 
+#navhamb {
+      padding-left: 20%;
+}
+
+#logodiv2{
+  width: 95%;
+  margin-top: -48px !important;
+}
+#logodiv2 img.logo-dark{
+margin-top: 57px!important;
+}
+
+#logodiv2 img{
+  /* width: 95%; */
+  margin-top: 40px !important;
+}
+
 #bg1 {
   background-size: 310%;
   height: 640px;
@@ -9086,6 +9103,17 @@ footer.inverse-text address {
   /* margin-top: 15%; */
 }
 #logodiv img:hover{
+  width: 145px;
+}
+
+#logodiv2{
+  width: 200px;
+}
+#logodiv2 img{
+  width: 140px;
+  /* margin-top: 15%; */
+}
+#logodiv2 img:hover{
   width: 145px;
 }
 
