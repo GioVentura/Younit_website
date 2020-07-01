@@ -1690,6 +1690,67 @@ width: 600px !important;
     margin-top: 12%;
 }
 
+/*-----------------------------------------------------------------------------------*/
+/*	hardvark-JUST-mobile-Brand Assets
+/*-----------------------------------------------------------------------------------*/
+
+#bgtotal2 {
+      background-size: 240% !important;
+}
+
+#txtBrand {
+  font-size: 3rem !important;
+  line-height: 60px;
+    margin-top: 15%;
+}
+
+#txt {
+    padding-right: 10%;
+}
+
+#ba1 {
+    margin-top: 30% !important;
+    width: 70%;
+    margin-left: 17%;
+}
+
+#brandAssets2 {
+    margin-top: 0%;
+    text-align: center;
+    right: 0%;
+    height: 450px;
+
+}
+
+
+#iconaApp {
+    margin-top: 25% !important;
+    text-align: center;
+    padding: 0 15% 5% 0;
+}
+
+#ba2 {
+   margin-left: 15% !important;
+   width: 72% !important;
+    margin-top: -380% !important;
+}
+
+#bgOrange3 {
+  background-size: 280%;
+  height: 490px !important;
+}
+
+#declinazioni {
+    right: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+#ba3 {
+    margin-left: 15%;
+    margin-top: 1%;
+}
+
 }
 /*-----------------------------------------------------------------------------------*/
 /*	hardvark-JUST-mobile
