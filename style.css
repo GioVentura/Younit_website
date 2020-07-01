@@ -1148,6 +1148,11 @@ width: 760px !important;
     margin-top: 0 !important;
 }
 
+#colonna6 {
+      margin-top: -8% !important;
+      height: 0 !important;
+}
+
 #condivisione {
   margin-top: 20% !important;
 }
@@ -1192,6 +1197,11 @@ width: 760px !important;
 
 #seguici {
   margin-top: 10% !important;
+}
+
+#colonna5 {
+  height: 300px !important;
+    margin-top: -8% !important;
 }
 
 }
@@ -1424,8 +1434,8 @@ width: 760px !important;
 /*-----------------------------------------------------------------------------------*/
 
 #bg1 {
-  background-size: 200%;
-    height: 400px;
+  background-size: 290%;
+  height: 640px;
 }
 
 #bg-lilla2 {
@@ -1467,24 +1477,27 @@ width: 600px !important;
 .static {
     font-size: 18px !important;
     margin-top: 16% !important;
-    margin-left: 8% !important;
+    margin-left: 0 !important;
+
 }
 
 .slider .quote {
     width: 50px !important;
     font-size: 18px !important;
-    margin-left: 46% !important;
+    margin-left: 0 !important;
+
 }
 
 .slider .source {
     width: 50px !important;
     font-size: 5px !important;
     margin-top: 3% !important;
-    margin-left: 46% !important;
+    margin-left: 0 !important;
+
 }
 
 .slider li {
-    width: 500px !important;
+  width: 0 !important;
 }
 
 #onda {
@@ -1500,15 +1513,23 @@ width: 600px !important;
   flex-direction: row !important;
   height: 80px !important;
   position: relative;
-  top: 500px;
+  top: 770px;
     padding-right: 15%
+}
+
+#colonna6{
+  height: 600px !important;
+  position: relative;
+  top: 30px;
 }
 
 .my-telephone2 {
   width: 55% !important;
     margin-left: 16% !important;
-    padding-top: 51% !important;
+    padding-top: 80% !important;
+    margin-top: 20% !important;
 }
+
 
 #testoCond {
     text-align: center;
@@ -1524,6 +1545,23 @@ width: 600px !important;
 
 .scroll-left {
   margin-top: 230% !important;
+}
+
+#colonna5 {
+    padding: 14px 36px 0px 25px!important;
+    height: 352px !important;
+    margin-top: 25% !important;
+    margin-bottom: 13%;
+}
+
+#testoPart {
+    text-align: center;
+    margin-top: 12%;
+}
+
+#testoSicur {
+    text-align: center;
+    margin-top: 12%;
 }
 
 }
@@ -5997,6 +6035,12 @@ letter-spacing: -0.3px;
 #iconaAttivitaSelected{
   display: none;
 }
+
+#colonna6{
+  height:700px;
+  padding: 0 !important;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	 PARLANO DI NOI
 /*-----------------------------------------------------------------------------------*/
@@ -6358,6 +6402,12 @@ margin-left: 60%;
     opacity: 0;
     z-index: 0;
   }
+}
+
+#colonna5 {
+    height: 700px;
+    flex-direction: column;
+    padding: 20% 0 0 8%;
 }
 
 #colonna4{
