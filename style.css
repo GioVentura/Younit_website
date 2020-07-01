@@ -1720,7 +1720,7 @@ width: 600px !important;
 #testoCond {
     text-align: center;
     margin-top: 12%;
-    padding-right: 15%;
+    padding-right: 0;
 }
 
 #bg-lilla2 {
@@ -6921,42 +6921,22 @@ transform: translateX(-100%);
   object-fit: cover;
 } */
 
-.img-item {
+.imgBox {
+  position: absolute;
+  width: 400px;
+  height: 450px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.imgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  visibility: hidden;
-  position: absolute;
-  max-width: 250px;
-  transform: translateY(-50%);
-  transform-origin: bottom;
-}
-.img-wrapper {
-  position: relative;
-
 }
 
-.grow-scale {
-  transform: scale(1.5);
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.5s all ease-in-out;
-}
-
-
-.drag__box {
-  height: 180px;
-  width: 140px;
-  position: absolute;
-  transition: 0.1s all;
-}
-
-.visible {
-  opacity: 1;
-  visibility: visible;
-}
-
-.hidden {
-  display: none;
-}
 #txtIG{
 
   font-size: 80px;
@@ -7021,7 +7001,7 @@ transform: translateX(-100%);
 
 #iconaApp {
   margin-top: 20%;
-  
+
 }
 
 #ba2 {
