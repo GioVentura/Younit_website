@@ -1465,13 +1465,18 @@ margin-left: -5px;
     left: 0% !important;
 
   }
+#lenostremenu{
+  margin-left: 30px;
+  margin-top: 30px;
+  color: #fff;
+}
 
 
 #esplora-btn{
   position: absolute;
   top: 556px;
   left: 85px;
-  padding: 19px !important;
+  padding: 13px !important;
 z-index: 200;
 border-radius: 16px;
 box-shadow: 2px 4px 9px rgba(84, 51, 163, 0.3);
@@ -1485,6 +1490,7 @@ text-transform: uppercase;
 text-align: center;
 letter-spacing: 0.2px;
 color: #7E48E5;
+background-color: #fff;
 }
 
 #update_data{
@@ -2002,7 +2008,7 @@ margin-bottom: 0%;
 }
 
 .navbar-nav-co .nav-link-co {
-    color: #A885EC !important;
+    color: #A885EC ;
 }
 
 .navbar-nav .nav-link,
