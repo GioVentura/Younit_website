@@ -71,17 +71,17 @@
 
               <ul class="navbar-nav-co navbar-nav mob_just">
                 <h3 id="lenostremenu" class="display-3">Le nostre comunità:</h3>
-                <li class="nav-item"><a id="item-selected-co" class="nav-link-co nav-link" href="comunità_Au.html">Australia</a>
+                <li class="nav-item"><a id="item-selected-co" class="nav-link-co nav-link" href="comunità.html_Au#ancora_Aus">Australia</a>
                 </li>
-                <li class="nav-item"><a class="nav-link-co nav-link" href="comunità_Bel.html">Belgio</a>
+                <li class="nav-item"><a class="nav-link-co nav-link" href="chiSiamo.html">Belgio</a>
                 </li>
-                <li class="nav-item"><a class="nav-link-co nav-link" href="comunità_Can.html">Canada</a>
+                <li class="nav-item"><a class="nav-link-co nav-link" href="chiSiamo.html">Canada</a>
                 </li>
-                <li class="nav-item"><a class="nav-link-co nav-link" href="comunità_Fr.html">Francia</a>
+                <li class="nav-item"><a class="nav-link-co nav-link" href="chiSiamo.html">Francia</a>
                 </li>
-                <li class="nav-item"><a class="nav-link-co nav-link" href="comunità_Ger.html">Germania</a>
+                <li class="nav-item"><a class="nav-link-co nav-link" href="chiSiamo.html">Germania</a>
                 </li>
-                <li class="nav-item"><a class="nav-link-co nav-link" href="comunità_Usa.html">Stati Uniti</a>
+                <li class="nav-item"><a class="nav-link-co nav-link" href="chiSiamo.html">Stati Uniti</a>
                 </li>
               </ul>
               <!-- /.navbar-nav -->
@@ -112,13 +112,13 @@
                           <form>
                             <div class="dropdown inputdropdown" id="searchIcon_co"><img src="style/images/icons/searchIcon.png"></div>
                             <input id="searchInput_co" required class=" searchformss search-box search-dropdown dropdown-toggle"  type="text" data-toggle="dropdown" class="search-box" placeholder="Cerca un Paese"/>
-                            <div class="canc dropdown-menu" id="myList">
-                              <a href="comunità_Au.html#ancora_Aus" class="dropdown-item">Australia</a>
-                              <a href="comunità_Bel.html#ancora_Bel" class="dropdown-item">Belgio</a>
-                              <a href="comunità_Can.html#ancora_Can" class="dropdown-item">Canada</a>
-                              <a href="comunità_Fr.html#ancora_Fr" class="dropdown-item">Francia</a>
-                              <a href="comunità_Ger.html#ancora_Ger" class="dropdown-item">Germania</a>
-                              <a href="comunità_Usa.html#ancora_Usa" class="dropdown-item">Stati Uniti</a>
+                            <div class="dropdown-menu" id="myList">
+                              <a href="comunità.html_Au#ancora_Aus" class="dropdown-item">Australia</a>
+                              <a href="comunità.html#ancora_Bel" class="dropdown-item">Belgio</a>
+                              <a href="comunità.html#ancora_Can" class="dropdown-item">Canada</a>
+                              <a href="comunità.html#ancora_Fr" class="dropdown-item">Francia</a>
+                              <a href="comunità.html#ancora_Ger" class="dropdown-item">Germania</a>
+                              <a href="comunità.html#ancora_Usa" class="dropdown-item">Stati Uniti</a>
                             </div>
                           </form>
 
@@ -143,16 +143,16 @@
                   <a href="#!" class="continenti-btn">Africa</a>
                 </div>
                 <div class="d-inline-block" >
-                <a href="comunità_Fr.html" class="continenti-btn">America</a>
+                <a href="#!" class="continenti-btn">America</a>
                 </div>
                 <div class="d-inline-block" >
                   <a href="#!" class="continenti-btn">Asia</a>
                 </div>
                 <div class="d-inline-block" >
-              <a href="comunità_Fr.html" class="continenti-btn">Europa</a>
+              <a href="#!" class="continenti-btn">Europa</a>
                 </div>
                 <div class="d-inline-block" >
-                  <a href="comunità_Au.html" class="continenti-btn bottone_viola">Oceania</a>
+                  <a href="#!" class="continenti-btn bottone_viola">Oceania</a>
                       <a name="ancora_Aus"></a>
 
                 </div>
@@ -668,8 +668,8 @@
   var map = new mapboxgl.Map({
     container: 'map-container',
     style: 'mapbox://styles/gioventura/ckap2uib61wc01is6etzk6xg5',
-    center: [-7, 50],
-    zoom: 3.6
+    center: [116, -25],
+    zoom: 3.1
 
   });
   var nav = new mapboxgl.NavigationControl(({
@@ -706,11 +706,11 @@ features: [{
   type: 'Feature',
   geometry: {
     type: 'Point',
-    coordinates: [-5.5, 33.7]
+    coordinates: [10, 51.1]
   },
   properties: {
     title: 'Mapbox',
-    description: 'Marocco'
+    description: 'Germany'
   }
 },{
   type: 'Feature',
@@ -726,11 +726,11 @@ features: [{
   type: 'Feature',
   geometry: {
     type: 'Point',
-    coordinates: [101, 35]
+    coordinates: [-106, 59]
   },
   properties: {
     title: 'Mapbox',
-    description: 'China'
+    description: 'Canada'
   }
 },{
   type: 'Feature',
@@ -769,8 +769,8 @@ geojson.features.forEach(function(marker) {
   var mapmob = new mapboxgl.Map({
     container: 'map-container-mob',
     style: 'mapbox://styles/gioventura/ckap2uib61wc01is6etzk6xg5',
-    center: [4, 50],
-    zoom: 3.7
+    center: [132, -27],
+    zoom: 2
 
   });
   var nav = new mapboxgl.NavigationControl(({
@@ -807,11 +807,11 @@ features: [{
   type: 'Feature',
   geometry: {
     type: 'Point',
-    coordinates: [-5.5, 33.7]
+    coordinates: [10, 51.1]
   },
   properties: {
     title: 'Mapbox',
-    description: 'Marocco'
+    description: 'Germany'
   }
 },{
   type: 'Feature',
@@ -827,11 +827,11 @@ features: [{
   type: 'Feature',
   geometry: {
     type: 'Point',
-    coordinates: [101, 35]
+    coordinates: [-106, 59]
   },
   properties: {
     title: 'Mapbox',
-    description: 'China'
+    description: 'Canada'
   }
 },{
   type: 'Feature',
