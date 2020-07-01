@@ -1490,8 +1490,19 @@ color: #7E48E5;
     z-index: 90;
   }
 
+  #box-1{
+    height: 4% !important;
+  }
+  .sottobox-1{
+    width: 93% !important;
+      margin-left: 0.3rem !important;
+  }
 
+  .p_1, .p_2{
+  font-size: 16px !important;
+  margin-bottom: 0.68rem !important;
 
+  }
 
 /*-----------------------------------------------------------------------------------*/
 /*	hardvark-mobile-Chi Siamo
