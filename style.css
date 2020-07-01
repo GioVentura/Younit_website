@@ -1434,22 +1434,19 @@ width: 760px !important;
 }
 
 #bg-lilla2 {
-  margin-top: 46%;
-  background-size: 300% !important;
+/*  margin-top: 46%; */
+  background-size: 70% !important;
+  position: relative !important;
 }
 
 #brandBrand {
-  position: center !important;
+  position: relative !important;
 }
 
 #brandAssets3 {
   text-align: center !important;
 }
 
-.soloIMG {
-  width: 70%;
-  padding-bottom: 10%;
-}
 
 #lineeGuida {
   padding-right: 10%;
@@ -1502,6 +1499,36 @@ width: 600px !important;
 #seguici {
     margin-top: 10% !important;
     font-size: medium !important;
+}
+
+#colonna4 {
+  flex-direction: row !important;
+  height: 80px !important;
+  position: relative;
+  top: 500px;
+    padding-right: 15%
+}
+
+.my-telephone2 {
+  width: 55% !important;
+    margin-left: 16% !important;
+    padding-top: 51% !important;
+}
+
+#testoCond {
+    text-align: center;
+    margin-top: 12%;
+}
+
+#bg-lilla2 {
+    height: 0;
+    background-size: 340% !important;
+    position: relative !important;
+    bottom: 20%;
+}
+
+.scroll-left {
+  margin-top: 230% !important;
 }
 
 }
