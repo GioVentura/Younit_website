@@ -923,9 +923,9 @@ height: 898px !important;
 .banner--stick .btn_nav_tab_co{
   margin-right: 25px !important;
 }
-.navbar{
+/* .navbar{
   width: 1024px !important;
-}
+} */
 .tab_none{
   display:none;
 }
@@ -1220,9 +1220,9 @@ width: 760px !important;
 
   }
 
-  .navbar{
+  /* .navbar{
     width: 360px !important;
-  }
+  } */
 
   .p_titolo{
     text-align: center;
