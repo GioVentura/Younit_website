@@ -1573,6 +1573,24 @@ background-color: #fff;
   height: 640px;
 }
 
+#younitchisiamo {
+  font-size: 30px;
+    font-family: "MohrRounded";
+    color: white;
+    line-height: 180%;
+    padding-top: 55%;
+    margin-left: 5%;
+    margin-bottom: -100%;
+}
+
+.sentirsiacasa {
+  font-size: 60px;
+    font-family: "MohrRounded";
+    -webkit-text-fill-color: #8647E9;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
 #bg-lilla2 {
 /*  margin-top: 46%; */
   background-size: 70% !important;
