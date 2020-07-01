@@ -692,6 +692,11 @@ canvas {
 /*	hardvark-laptop
 /*-----------------------------------------------------------------------------------*/
 @media (min-width: 1601px) {
+
+  .lap_none{
+    display:none;
+  }
+
   #bgtotal{
     background-size: 100%;
     background-position: 0px -60px;
@@ -823,7 +828,7 @@ height: 715px;
 }
 
 #bg-lilla2 {
-  background-position: 0px -160px;
+height: 898px !important;
 }
 
 .scroll-left p {
@@ -831,13 +836,18 @@ height: 715px;
 }
 
 #brandBrand {
-  margin-top: 25% !important;
+  margin-top: 60% !important;
 }
 
 .imgBox{
   width: 450px !important;
     height: 500px !important;
 }
+
+#brandAssets3 {
+    margin-top: 25%;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	hardvark-laptop-Brand Assets
 /*-----------------------------------------------------------------------------------*/
@@ -1098,8 +1108,10 @@ height:2000px !important;
 }
 
 .mask {
-  width: 760px !important;
+  width: 766px !important;
   margin-left: 0 !important;
+  overflow: hidden;
+  height: 220px !important;
 }
 
 .slider {
@@ -1107,20 +1119,20 @@ width: 760px !important;
 }
 
 .static {
-    font-size: 50px !important;
+    font-size: 58px !important;
     margin-top: 16% !important;
-    margin-left: 12% !important;
+    margin-left: 8% !important;
 }
 
 .slider .quote {
     width: 500px !important;
-    font-size: 50px !important;
+    font-size: 58px !important;
     margin-left: 46% !important;
 }
 
 .slider .source {
-    width: 400px !important;
-    font-size: 20px !important;
+    width: 450px !important;
+    font-size: 25px !important;
     margin-top: 3% !important;
     margin-left: 46% !important;
 }
@@ -1384,12 +1396,87 @@ width: 760px !important;
       padding-left: 3%;
     }
 
+/*-----------------------------------------------------------------------------------*/
+/*	hardvark-mobile-Chi Siamo
+/*-----------------------------------------------------------------------------------*/
+
+#bg1 {
+  background-size: 200%;
+    height: 400px;
 }
 
+#bg-lilla2 {
+  margin-top: 46%;
+  background-size: 300% !important;
+}
 
+#brandBrand {
+  position: center !important;
+}
 
+#brandAssets3 {
+  text-align: center !important;
+}
 
+.soloIMG {
+  width: 70%;
+  padding-bottom: 10%;
+}
 
+#lineeGuida {
+  padding-right: 10%;
+}
+
+.scroll-left p {
+  font-size: 50px !important;
+  height: 550px !important;
+  margin-top: 58% !important;
+}
+
+.mask {
+  width: 600px !important;
+  margin-left: 0 !important;
+  overflow: hidden;
+  height: 220px !important;
+}
+
+.slider {
+width: 600px !important;
+}
+
+.static {
+    font-size: 18px !important;
+    margin-top: 16% !important;
+    margin-left: 8% !important;
+}
+
+.slider .quote {
+    width: 50px !important;
+    font-size: 18px !important;
+    margin-left: 46% !important;
+}
+
+.slider .source {
+    width: 50px !important;
+    font-size: 5px !important;
+    margin-top: 3% !important;
+    margin-left: 46% !important;
+}
+
+.slider li {
+    width: 500px !important;
+}
+
+#onda {
+    height: 58px !important;
+}
+
+#seguici {
+    margin-top: 10% !important;
+    font-size: medium !important;
+}
+
+}
 /*-----------------------------------------------------------------------------------*/
 /*	hardvark-JUST-mobile
 /*-----------------------------------------------------------------------------------*/
@@ -5947,7 +6034,7 @@ top: 0px;
 
 .mask {
   overflow: hidden;
-height: 720px;
+height: 420px;
 margin-left: 10%;
 width: 1200px;
 }
@@ -8620,6 +8707,7 @@ footer.inverse-text address {
 }
 #logodiv img{
   width: 140px;
+  margin-top: 15%;
 }
 #logodiv img:hover{
   width: 145px;
