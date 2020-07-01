@@ -261,6 +261,13 @@ body {
  background-color: #F8F5FE;
 }
 
+.mapboxgl-ctrl-logo{
+  display: none !important;
+}
+.mapboxgl-ctrl-bottom-right{
+  display: none !important;
+}
+
 .container {
     padding-right: 0;
     padding-left: 0;
@@ -1279,6 +1286,10 @@ width: 760px !important;
   #bg-viola{
     height: 100px;
   }
+  #bg-viola-co{
+    height: 252px;
+    background-size: 130% 252px;
+  }
 
   /* .banner--stick #logodiv{
     margin-top: -30px;
@@ -1405,6 +1416,10 @@ width: 760px !important;
       top: 55.2% !important;
       height: 700px !important;
     }
+    #gradiente_co{
+      top: 55.2% !important;
+      height: 760px !important;
+    }
     #storeButtons{
       display: block;
       width:60% !important;
@@ -1428,6 +1443,116 @@ width: 760px !important;
     .mob_pad{
       padding-left: 3%;
     }
+
+/*-----------------------------------------------------------------------------------*/
+/*	hardvark-mobile-Comunità
+/*-----------------------------------------------------------------------------------*/
+  .display-1bis{
+
+      font-size: 0.8rem !important;
+      text-align: left;
+      letter-spacing: -0.02rem;
+      font-weight: bold;
+      line-height: 2.3rem !important;
+  }
+.sele{
+  color: #FFB648;
+}
+  .shado{
+color: #7E48E5 !important;
+text-shadow: 1px 2px 8px rgba(113, 68, 200, 0.25);
+margin-left: -5px;
+
+  }
+
+#staticbox{
+  height: 650px  !important;
+}
+
+  #titolo_main_com{
+     width: 100% !important;
+    top: 18.5% !important;
+    left: 0% !important;
+
+  }
+#lenostremenu{
+  margin-left: 30px;
+  margin-top: 30px;
+  color: #fff;
+}
+
+
+#esplora-btn{
+  position: absolute;
+  top: 556px;
+  left: 85px;
+  padding: 13px !important;
+z-index: 200;
+border-radius: 16px;
+box-shadow: 2px 4px 9px rgba(84, 51, 163, 0.3);
+width: 159px;
+height: 50px;
+font-family: "MohrRounded";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 0.2px;
+color: #7E48E5;
+background-color: #fff;
+}
+
+#update_data{
+  height:2100px !important;
+}
+
+#rimani-agg{
+  padding: 0 5% !important;
+}
+#floating-part{
+  height: 78% !important;
+}
+
+#notizie_covid{
+    height: 22% !important;
+}
+
+
+#leggidipiù{
+
+  position: relative;
+  top: 20px;
+  left: -69px;
+}
+
+  /* nuova mappa */
+  #map-container-mob{
+    position:absolute;
+    top: 41%;
+    left:5%;
+    border-radius: 20px;
+    border: 2px solid #FFB648;
+    height: 49% !important;
+    width: 90%;
+    box-shadow: 1px 2px 8px rgba(113, 68, 200, 0.65);
+    z-index: 90;
+  }
+
+  #box-1{
+    height: 4% !important;
+  }
+  .sottobox-1{
+    width: 93% !important;
+      margin-left: 0.3rem !important;
+  }
+
+  .p_1, .p_2{
+  font-size: 16px !important;
+  margin-bottom: 0.68rem !important;
+
+  }
+
 
 /*-----------------------------------------------------------------------------------*/
 /*	hardvark-mobile-Chi Siamo
@@ -1921,7 +2046,7 @@ margin-bottom: 0%;
 }
 
 .navbar-nav-co .nav-link-co {
-    color: #A885EC !important;
+    color: #A885EC ;
 }
 
 .navbar-nav .nav-link,
@@ -2887,6 +3012,15 @@ background: #986FE7 !important;
 #younisciti-btn:focus,
 #younisciti-btn:active,
 #younisciti-btn.active {
+    background: #EFAE06;
+    color: #fff;
+    margin-top: 1px;
+    /* margin-left: 0.5px; */
+}
+#esplora-btn:hover,
+#esplora-btn:focus,
+#esplora-btn:active,
+#esplora-btn.active {
     background: #EFAE06;
     color: #fff;
     margin-top: 1px;
