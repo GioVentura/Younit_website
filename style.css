@@ -255,6 +255,8 @@ body {
     scroll-behavior: smooth;
 }
 
+
+
 #bodycomunità{
  background-color: #F8F5FE;
 }
@@ -916,10 +918,13 @@ height: 898px !important;
 }
 
 .btn_nav_tab_co{
-  margin-right: 45px !important;
+  margin-right: 75px !important;
 }
 .banner--stick .btn_nav_tab_co{
   margin-right: 25px !important;
+}
+.navbar{
+  width: 1024px !important;
 }
 .tab_none{
   display:none;
@@ -1804,6 +1809,8 @@ margin-bottom: 0%;
 }
 .navbar.absolute {
     position: absolute;
+    left: 0px !important;
+    top: 0px !important;
 }
 .navbar.navbar-bg-light {
     background: var(--color-white) !important;
@@ -8726,7 +8733,7 @@ footer.inverse-text address {
 }
 #logodiv img{
   width: 140px;
-  margin-top: 15%;
+  /* margin-top: 15%; */
 }
 #logodiv img:hover{
   width: 145px;
