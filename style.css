@@ -798,6 +798,11 @@ top: 67.2% !important;
 #parlano-di-noi{
   font-size: 1.8rem;
 }
+
+#brandAssets {
+  margin-top: 160px !important;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	hardvark-laptop-Comunità
 /*-----------------------------------------------------------------------------------*/
@@ -876,6 +881,7 @@ height: 898px !important;
 
 #iconaApp {
   margin-top: 30% !important;
+
 }
 
 #bg1 {
@@ -1006,7 +1012,7 @@ height: 270px !important;
 }
 
   #brandAssets {
-    margin-top: 100px !important;
+    margin-top: 160px !important;
 }
 
 #marchio {
@@ -1744,6 +1750,11 @@ width: 600px !important;
 #testoSicur {
     text-align: center;
     margin-top: 12%;
+    padding-right: 10%;
+}
+
+#brandAssets {
+    margin-top: 100px !important;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -1783,6 +1794,7 @@ width: 600px !important;
     margin-top: 25% !important;
     text-align: center;
     padding: 0 15% 5% 0;
+
 }
 
 #ba2 {
@@ -7009,6 +7021,7 @@ transform: translateX(-100%);
 
 #iconaApp {
   margin-top: 20%;
+  
 }
 
 #ba2 {
@@ -7029,6 +7042,10 @@ transform: translateX(-100%);
   position:relative;
   z-index: 13;
 
+}
+
+#brandAssets {
+  margin-top: 190px;
 }
 
 /*-----------------------------------------------------------------------------------*/
