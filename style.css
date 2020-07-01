@@ -1338,12 +1338,87 @@ width: 760px !important;
       padding-left: 3%;
     }
 
+/*-----------------------------------------------------------------------------------*/
+/*	hardvark-mobile-Chi Siamo
+/*-----------------------------------------------------------------------------------*/
+
+#bg1 {
+  background-size: 200%;
+    height: 400px;
 }
 
+#bg-lilla2 {
+  margin-top: 46%;
+  background-size: 300% !important;
+}
 
+#brandBrand {
+  position: center !important;
+}
 
+#brandAssets3 {
+  text-align: center !important;
+}
 
+.soloIMG {
+  width: 70%;
+  padding-bottom: 10%;
+}
 
+#lineeGuida {
+  padding-right: 10%;
+}
+
+.scroll-left p {
+  font-size: 50px !important;
+  height: 550px !important;
+  margin-top: 58% !important;
+}
+
+.mask {
+  width: 600px !important;
+  margin-left: 0 !important;
+  overflow: hidden;
+  height: 220px !important;
+}
+
+.slider {
+width: 600px !important;
+}
+
+.static {
+    font-size: 18px !important;
+    margin-top: 16% !important;
+    margin-left: 8% !important;
+}
+
+.slider .quote {
+    width: 50px !important;
+    font-size: 18px !important;
+    margin-left: 46% !important;
+}
+
+.slider .source {
+    width: 50px !important;
+    font-size: 5px !important;
+    margin-top: 3% !important;
+    margin-left: 46% !important;
+}
+
+.slider li {
+    width: 500px !important;
+}
+
+#onda {
+    height: 58px !important;
+}
+
+#seguici {
+    margin-top: 10% !important;
+    font-size: medium !important;
+}
+
+}
 /*-----------------------------------------------------------------------------------*/
 /*	hardvark-JUST-mobile
 /*-----------------------------------------------------------------------------------*/
@@ -8574,6 +8649,7 @@ footer.inverse-text address {
 }
 #logodiv img{
   width: 140px;
+  margin-top: 15%;
 }
 #logodiv img:hover{
   width: 145px;
