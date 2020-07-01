@@ -1584,11 +1584,18 @@ background-color: #fff;
 }
 
 .sentirsiacasa {
-  font-size: 60px;
+  font-size: 80px;
     font-family: "MohrRounded";
     -webkit-text-fill-color: #8647E9;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
+}
+
+.mondo {
+  font-size: 18px;
+    font-family: "MohrRounded";
+    color: white;
+    margin-top: -6%;
 }
 
 #bg-lilla2 {
@@ -1697,7 +1704,7 @@ width: 600px !important;
 }
 
 .scroll-left {
-  margin-top: 230% !important;
+  margin-top: 250% !important;
   z-index: -1;
 }
 
