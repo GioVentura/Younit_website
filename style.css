@@ -1326,9 +1326,9 @@ width: 760px !important;
   }
 
   #bg-lilla{
-    top: 23%;
-    background-size: 348%;
-    height: 685px;
+    top: 21.6%;
+    background-size: 348% 660px;
+    height: 660px;
   }
 
  .owl-dots{
@@ -1706,7 +1706,7 @@ width: 600px !important;
 /*-----------------------------------------------------------------------------------*/
 @media (min-width: 361px) {
   .mob_just{
-    display: none;
+    display: none !important;
   }
 }
 
