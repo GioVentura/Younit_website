@@ -1670,6 +1670,7 @@ width: 600px !important;
 
 .scroll-left {
   margin-top: 230% !important;
+  z-index: -1;
 }
 
 #colonna5 {
