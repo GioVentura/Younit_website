@@ -1220,6 +1220,10 @@ width: 760px !important;
 
   }
 
+  .navbar{
+    width: 360px !important;
+  }
+
   .p_titolo{
     text-align: center;
     font-size: 0.9rem !important;
