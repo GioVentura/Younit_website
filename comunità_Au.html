@@ -876,6 +876,27 @@ geojson.features.forEach(function(marker) {
       });
     });
   });
+
+
+  $("#searchInput_co").on('input', function() {
+    var fieldValue = $(this).val();
+    var count = fieldValue.length;
+    var lista = document.querySelector('#myList');
+
+
+    if (count >= 1) {
+      console.log('hai digitato almeno due lettere');
+
+
+      $("#myList").removeClass("canc");
+    } else{
+      $("#myList").addClass("canc");
+    }
+
+
+
+  });
+
   </script>
 
   <script src="style/js/jquery.min.js"></script>

@@ -109,18 +109,18 @@
                 <div class="row mob_none" data="fade-up" data-delay="1000">
                   <div id="rettangoloSearchCom">
 
-                          <form>
-                            <div class="dropdown inputdropdown" id="searchIcon_co"><img src="style/images/icons/searchIcon.png"></div>
-                            <input id="searchInput_co" required class=" searchformss search-box search-dropdown dropdown-toggle"  type="text" data-toggle="dropdown" class="search-box" placeholder="Cerca un Paese"/>
-                            <div class="dropdown-menu" id="myList">
-                              <a href="comunità.html_Au#ancora_Aus" class="dropdown-item">Australia</a>
-                              <a href="comunità.html#ancora_Bel" class="dropdown-item">Belgio</a>
-                              <a href="comunità.html#ancora_Can" class="dropdown-item">Canada</a>
-                              <a href="comunità.html#ancora_Fr" class="dropdown-item">Francia</a>
-                              <a href="comunità.html#ancora_Ger" class="dropdown-item">Germania</a>
-                              <a href="comunità.html#ancora_Usa" class="dropdown-item">Stati Uniti</a>
-                            </div>
-                          </form>
+                    <form>
+                      <div class="dropdown inputdropdown" id="searchIcon_co"><img src="style/images/icons/searchIcon.png"></div>
+                      <input id="searchInput_co" required class=" searchformss search-box search-dropdown dropdown-toggle"  type="text" data-toggle="dropdown" class="search-box" placeholder="Cerca un Paese"/>
+                      <div class="canc dropdown-menu" id="myList">
+                        <a href="comunità_Au.html#ancora_Aus" class="dropdown-item">Australia</a>
+                        <a href="comunità_Bel.html#ancora_Bel" class="dropdown-item">Belgio</a>
+                        <a href="comunità_Chi.html#ancora_Chi" class="dropdown-item">Cina</a>
+                        <a href="comunità_Fr.html#ancora_Fr" class="dropdown-item">Francia</a>
+                        <a href="comunità_Mar.html#ancora_Mar" class="dropdown-item">Marocco</a>
+                        <a href="comunità_Usa.html#ancora_Usa" class="dropdown-item">Stati Uniti</a>
+                      </div>
+                    </form>
 
                   </div>
 
@@ -876,6 +876,27 @@
       });
     });
   });
+
+
+  $("#searchInput_co").on('input', function() {
+    var fieldValue = $(this).val();
+    var count = fieldValue.length;
+    var lista = document.querySelector('#myList');
+
+
+    if (count >= 1) {
+      console.log('hai digitato almeno due lettere');
+
+
+      $("#myList").removeClass("canc");
+    } else{
+      $("#myList").addClass("canc");
+    }
+
+
+
+  });
+
   </script>
 
   <script src="style/js/jquery.min.js"></script>
