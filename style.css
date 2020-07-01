@@ -918,14 +918,12 @@ height: 898px !important;
 }
 
 .btn_nav_tab_co{
-  margin-right: 75px !important;
+  margin-right: 25px !important;
 }
 .banner--stick .btn_nav_tab_co{
   margin-right: 25px !important;
 }
-/* .navbar{
-  width: 1024px !important;
-} */
+
 .tab_none{
   display:none;
 }
@@ -1220,9 +1218,6 @@ width: 760px !important;
 
   }
 
-  /* .navbar{
-    width: 360px !important;
-  } */
 
   .p_titolo{
     text-align: center;
@@ -1987,9 +1982,16 @@ acronym[title] {
 }
 .banner--stick #item-selected{
     color: #7E48E5 !important;
-    margin-top: 6.6%;
+    /* margin-top: 6.6%; */
+}
+.banner--stick #item-selected-co{
+    color: #7E48E5 !important;
+    padding-top: 24px !important;
 }
 #item-selected{
+color: #7E48E5 !important
+}
+#item-selected-co{
 color: #7E48E5 !important
 }
 
